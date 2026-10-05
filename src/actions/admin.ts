@@ -25,3 +25,12 @@ export async function blockUser(userId: string, blocked: boolean) {
     .eq('id', userId)
   if (error) throw new Error(error.message)
 }
+
+export async function updateColumnVisibility(visibility: Record<string, boolean>) {
+  await requireAdmin()
+  const admin = createSupabaseAdminClient()
+  const { error } = await admin
+    .from('settings')
+    .upsert({ key: 'column_visibility', value: visibility })
+  if (error) throw new Error(error.message)
+}

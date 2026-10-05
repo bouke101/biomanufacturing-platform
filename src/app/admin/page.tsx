@@ -4,6 +4,7 @@ import { createSupabaseServerClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Header from '@/components/Header'
 import AdminClient from './AdminClient'
+import { fetchColumnVisibility } from '@/lib/facilities'
 
 export default async function AdminPage() {
   const supabase = createSupabaseServerClient()
@@ -23,12 +24,14 @@ export default async function AdminPage() {
     .select('id, email, role, blocked, created_at')
     .order('created_at', { ascending: false })
 
+  const columnVisibility = await fetchColumnVisibility(admin)
+
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Header />
       <main className="flex-1 max-w-5xl w-full mx-auto px-6 py-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Admin Panel</h2>
-        <AdminClient users={users ?? []} />
+        <AdminClient users={users ?? []} columnVisibility={columnVisibility} />
       </main>
     </div>
   )
