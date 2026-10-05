@@ -9,12 +9,14 @@ export const features = tableFeatures({
 
 const helper = createColumnHelper<typeof features, Facility>()
 
-export const columns = helper.columns([
+export const allColumns = helper.columns([
   helper.accessor('name', {
+    id: 'name',
     header: 'Facility',
     cell: (info) => <span className="font-medium text-gray-900">{info.getValue()}</span>,
   }),
   helper.accessor('owner', {
+    id: 'owner',
     header: 'Owner',
     cell: (info) => <span className="text-gray-700">{info.getValue()}</span>,
   }),
@@ -24,6 +26,7 @@ export const columns = helper.columns([
     cell: (info) => <span className="text-gray-600">{info.getValue()}</span>,
   }),
   helper.accessor('facilityType', {
+    id: 'facilityType',
     header: 'Type',
     cell: (info) => (
       <span className="inline-block px-2 py-0.5 text-xs font-medium rounded-full bg-emerald-100 text-emerald-800">

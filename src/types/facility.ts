@@ -35,4 +35,5 @@ export interface Facility {
   website: string
   imageUrl: string          // relative path under /images/facilities/ or empty string
   notes: string
+  visible?: boolean
 }

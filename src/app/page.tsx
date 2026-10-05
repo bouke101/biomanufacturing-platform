@@ -1,57 +1,39 @@
 // src/app/page.tsx
-'use client'
-import { useFacilityFilters } from '@/hooks/useFacilityFilters'
-import FilterBar from '@/components/FilterBar'
-import FacilityTable from '@/components/FacilityTable/FacilityTable'
-import FacilityMap from '@/components/FacilityMap'
+import { createSupabaseServerClient } from '@/lib/supabase/server'
+import { createSupabaseAdminClient } from '@/lib/supabase/admin'
+import { fetchFacilities, fetchColumnVisibility } from '@/lib/facilities'
+import Header from '@/components/Header'
+import FacilityPageClient from '@/components/FacilityPageClient'
 
-export default function Home() {
-  const filters = useFacilityFilters()
+export default async function Home() {
+  const supabase = createSupabaseServerClient()
+
+  // Determine if the current user is admin
+  const { data: { user } } = await supabase.auth.getUser()
+  let isAdmin = false
+  if (user) {
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('role')
+      .eq('id', user.id)
+      .single()
+    isAdmin = profile?.role === 'admin'
+  }
+
+  // Admin sees all facilities; visitors see only visible=true (enforced by RLS)
+  const facilityClient = isAdmin ? createSupabaseAdminClient() : supabase
+  const [facilities, columnVisibility] = await Promise.all([
+    fetchFacilities(facilityClient),
+    fetchColumnVisibility(supabase),
+  ])
 
   return (
     <div className="flex flex-col h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200 px-6 py-4 flex items-center gap-4 shrink-0">
-        <div>
-          <h1 className="text-lg font-bold text-gray-900">Biomanufacturing Facility Map</h1>
-          <p className="text-xs text-gray-500">Global CMO &amp; CDMO intelligence platform</p>
-        </div>
-      </header>
-
-      {/* Filter bar */}
-      <FilterBar
-        facilities={filters.facilities}
-        globalSearch={filters.globalSearch}
-        setGlobalSearch={filters.setGlobalSearch}
-        modality={filters.modality}
-        setModality={filters.setModality}
-        region={filters.region}
-        setRegion={filters.setRegion}
-        facilityType={filters.facilityType}
-        setFacilityType={filters.setFacilityType}
-        resultCount={filters.filtered.length}
+      <Header />
+      <FacilityPageClient
+        initialFacilities={facilities}
+        columnVisibility={columnVisibility}
       />
-
-      {/* Split view: map top, table bottom */}
-      <div className="flex flex-col flex-1 overflow-hidden">
-        {/* Map */}
-        <div className="h-[40vh] shrink-0 border-b border-gray-200">
-          <FacilityMap
-            filtered={filters.filtered}
-            selectedId={filters.selectedId}
-            setSelectedId={filters.setSelectedId}
-          />
-        </div>
-
-        {/* Table */}
-        <div className="flex-1 overflow-auto">
-          <FacilityTable
-            filtered={filters.filtered}
-            selectedId={filters.selectedId}
-            setSelectedId={filters.setSelectedId}
-          />
-        </div>
-      </div>
     </div>
   )
 }
