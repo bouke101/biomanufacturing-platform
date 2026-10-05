@@ -3,7 +3,6 @@
 import { createSupabaseAdminClient } from '@/lib/supabase/admin'
 import { createSupabaseServerClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
-import type { Facility } from '@/types/facility'
 
 async function requireAdmin() {
   const supabase = createSupabaseServerClient()
