@@ -36,24 +36,33 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
 
-  if (user) {
+  if (user && !isPublicRoute) {
     const { data: profile } = await supabase
       .from('profiles')
       .select('role, blocked')
       .eq('id', user.id)
       .single()
 
-    if (profile?.blocked) {
-      const response = NextResponse.redirect(
-        new URL('/login?suspended=1', request.url)
-      )
-      // Expire the session cookie so the user is fully signed out
-      response.cookies.set('sb-access-token', '', { maxAge: 0 })
-      response.cookies.set('sb-refresh-token', '', { maxAge: 0 })
-      return response
+    if (!profile) {
+      if (pathname.startsWith('/admin')) {
+        return NextResponse.redirect(new URL('/', request.url))
+      }
+      return supabaseResponse
     }
 
-    if (pathname.startsWith('/admin') && profile?.role !== 'admin') {
+    if (profile.blocked) {
+      await supabase.auth.signOut()
+      const redirectResponse = NextResponse.redirect(
+        new URL('/login?suspended=1', request.url)
+      )
+      // Copy the sign-out cookies from supabaseResponse to the redirect response
+      supabaseResponse.cookies.getAll().forEach((cookie) => {
+        redirectResponse.cookies.set(cookie.name, cookie.value, { ...cookie })
+      })
+      return redirectResponse
+    }
+
+    if (pathname.startsWith('/admin') && profile.role !== 'admin') {
       return NextResponse.redirect(new URL('/', request.url))
     }
   }
