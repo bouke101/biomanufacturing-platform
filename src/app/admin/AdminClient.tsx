@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import UsersTab from '@/components/admin/UsersTab'
 import ColumnVisibilityTab from '@/components/admin/ColumnVisibilityTab'
+import FacilitiesTab from '@/components/admin/FacilitiesTab'
 
 type Tab = 'users' | 'columns' | 'facilities'
 
@@ -17,9 +18,10 @@ interface Profile {
 interface AdminClientProps {
   users: Profile[]
   columnVisibility: Record<string, boolean>
+  facilities: import('@/types/facility').Facility[]
 }
 
-export default function AdminClient({ users, columnVisibility }: AdminClientProps) {
+export default function AdminClient({ users, columnVisibility, facilities }: AdminClientProps) {
   const [activeTab, setActiveTab] = useState<Tab>('users')
 
   const tabClass = (tab: Tab) =>
@@ -47,9 +49,7 @@ export default function AdminClient({ users, columnVisibility }: AdminClientProp
       {activeTab === 'columns' && (
         <ColumnVisibilityTab columnVisibility={columnVisibility} />
       )}
-      {activeTab === 'facilities' && (
-        <p className="text-gray-400 text-sm">Facilities — coming in next task.</p>
-      )}
+      {activeTab === 'facilities' && <FacilitiesTab facilities={facilities} />}
     </div>
   )
 }
