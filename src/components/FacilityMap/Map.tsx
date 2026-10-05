@@ -40,6 +40,7 @@ export default function FacilityMapInner({ filtered, selectedId, setSelectedId }
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 18,
     }).addTo(map)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const cluster = (L as any).markerClusterGroup({ maxClusterRadius: 40 })
     map.addLayer(cluster)
     mapRef.current = map

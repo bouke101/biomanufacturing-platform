@@ -1,7 +1,7 @@
 'use client'
 import { useState, useMemo } from 'react'
 import { loadFacilities } from '@/lib/facilities'
-import type { Facility, Modality, FacilityType } from '@/types/facility'
+import type { Modality, FacilityType } from '@/types/facility'
 
 export function useFacilityFilters() {
   const facilities = useMemo(() => loadFacilities(), [])
