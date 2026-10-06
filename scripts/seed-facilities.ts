@@ -27,7 +27,9 @@ async function seed() {
     website: f.website,
     image_url: f.imageUrl,
     notes: f.notes,
-    visible: true,
+    visible: f.visible ?? true,
+    source: f.source ?? 'manual',
+    pilots4u_page: f.pilots4uPage ?? null,
   }))
 
   const { error } = await supabase.from('facilities').upsert(rows)

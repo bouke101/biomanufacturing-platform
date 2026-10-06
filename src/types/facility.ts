@@ -1,4 +1,4 @@
-export type FacilityType = 'CMO' | 'CDMO' | 'Captive' | 'Toll'
+export type FacilityType = 'CMO' | 'CDMO' | 'Captive' | 'Toll' | 'Pilot'
 export type Scale = 'Development' | 'Pilot' | 'Commercial'
 export type Modality =
   | 'Mammalian cell culture'
@@ -10,6 +10,16 @@ export type Modality =
   | 'Lipid nanoparticle'
   | 'Enzymes'
   | 'Probiotics & cultures'
+  | 'Algae'
+  | 'Enzymatic catalysis'
+  | 'Separation'
+  | 'Size reduction'
+  | 'Sterilisation'
+  | 'Chemical conversion'
+  | 'Thermochemical'
+  | 'Thermal processing'
+  | 'Material technologies'
+  | 'Pulping'
 
 export interface FacilityLocation {
   city: string
@@ -33,7 +43,9 @@ export interface Facility {
   legacy: string            // founding year + key history (1–2 sentences)
   certifications: string[]  // e.g. ["FDA", "EMA GMP", "ISO 9001"]
   website: string
-  imageUrl: string          // relative path under /images/facilities/ or empty string
+  imageUrl: string          // relative path under /images/facilities/ or logo URL for Pilots4U entries
   notes: string
   visible?: boolean
+  source?: 'manual' | 'pilots4u'
+  pilots4uPage?: string
 }

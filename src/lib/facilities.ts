@@ -45,6 +45,8 @@ export async function fetchFacilities(supabase: SupabaseClient): Promise<Facilit
     imageUrl: row.image_url,
     notes: row.notes,
     visible: row.visible,
+    source: row.source as Facility['source'],
+    pilots4uPage: row.pilots4u_page,
   }))
 }
 
