@@ -1,10 +1,9 @@
+// src/hooks/useFacilityFilters.ts
 'use client'
 import { useState, useMemo } from 'react'
-import { loadFacilities } from '@/lib/facilities'
-import type { Modality, FacilityType } from '@/types/facility'
+import type { Facility, Modality, FacilityType } from '@/types/facility'
 
-export function useFacilityFilters() {
-  const facilities = useMemo(() => loadFacilities(), [])
+export function useFacilityFilters(initialFacilities: Facility[]) {
   const [globalSearch, setGlobalSearch] = useState('')
   const [modality, setModality] = useState<Modality | ''>('')
   const [region, setRegion] = useState<string>('')
@@ -13,7 +12,7 @@ export function useFacilityFilters() {
 
   const filtered = useMemo(() => {
     const q = globalSearch.toLowerCase()
-    return facilities.filter((f) => {
+    return initialFacilities.filter((f) => {
       const matchesSearch =
         !q ||
         f.name.toLowerCase().includes(q) ||
@@ -27,10 +26,10 @@ export function useFacilityFilters() {
       const matchesType = !facilityType || f.facilityType === facilityType
       return matchesSearch && matchesModality && matchesRegion && matchesType
     })
-  }, [facilities, globalSearch, modality, region, facilityType])
+  }, [initialFacilities, globalSearch, modality, region, facilityType])
 
   return {
-    facilities,
+    facilities: initialFacilities,
     filtered,
     globalSearch, setGlobalSearch,
     modality, setModality,

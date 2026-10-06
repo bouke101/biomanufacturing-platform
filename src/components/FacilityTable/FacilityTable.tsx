@@ -6,7 +6,7 @@ import {
   flexRender,
   type SortingState,
 } from '@tanstack/react-table'
-import { columns, features } from './columns'
+import { allColumns, features } from './columns'
 import FacilityDetail from './FacilityDetail'
 import type { Facility } from '@/types/facility'
 
@@ -14,10 +14,20 @@ interface FacilityTableProps {
   filtered: Facility[]
   selectedId: string | null
   setSelectedId: (id: string | null) => void
+  columnVisibility: Record<string, boolean>
 }
 
-export default function FacilityTable({ filtered, selectedId, setSelectedId }: FacilityTableProps) {
+export default function FacilityTable({
+  filtered,
+  selectedId,
+  setSelectedId,
+  columnVisibility,
+}: FacilityTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
+
+  const columns = allColumns.filter(
+    (col) => columnVisibility[(col as { id?: string }).id ?? ''] !== false
+  )
 
   const table = useTable({
     features,
