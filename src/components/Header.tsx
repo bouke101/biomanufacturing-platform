@@ -25,7 +25,17 @@ export default async function Header() {
       </a>
 
       {user && (
-        <ProfileDropdown email={user.email ?? ''} isAdmin={isAdmin} />
+        <div className="flex items-center gap-2">
+          {isAdmin && (
+            <a
+              href="/admin"
+              className="text-sm font-medium text-emerald-700 hover:text-emerald-800 px-3 py-1.5 rounded-lg hover:bg-emerald-50 transition-colors"
+            >
+              Admin
+            </a>
+          )}
+          <ProfileDropdown email={user.email ?? ''} isAdmin={isAdmin} />
+        </div>
       )}
     </header>
   )
