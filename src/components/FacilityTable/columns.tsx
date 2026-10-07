@@ -44,4 +44,9 @@ export const allColumns = helper.columns([
     header: 'Region',
     cell: (info) => <span className="text-gray-600">{info.getValue()}</span>,
   }),
+  helper.accessor('capacity', {
+    id: 'capacity',
+    header: 'Fermentors',
+    cell: (info) => <span className="text-sm text-gray-600">{info.getValue() || '—'}</span>,
+  }),
 ])

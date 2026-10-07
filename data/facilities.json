@@ -874,7 +874,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "50 units, 1 - 10000 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -905,7 +905,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 0.5 - 5 L (batch); 1 units, 1 - 50 L (batch)",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1028,7 +1028,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "24 units, 1 - 6000 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1064,7 +1064,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "15 units, 0.25 - 13 L; 8 units, 25 - 1700 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1161,7 +1161,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "15 units, 8 - 220000 L; 4 units, 5 - 30 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1257,7 +1257,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 1 - 20 t",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1292,7 +1292,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "21 units, 5 - 3800 L (batch); 20 units, 5 - 3800 L (batch)",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1391,7 +1391,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "20 units, 20 - 50 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1489,7 +1489,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "57 units, 2 - 75000 L; 8 units, 1 - 150 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1587,7 +1587,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "18 units, 0.5 - 10000 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1753,7 +1753,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "9 units, 0.35 - 1500 L; 9 units, 0.35 - 1500 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1885,7 +1885,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "2 units, 600 kg",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1923,7 +1923,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "4 units, 10 - 150 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -1957,7 +1957,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "3 units, 20 - 2000 L; 1 units, 3 - 6 L/h",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2120,7 +2120,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "7 units, 1 - 6000 L; 2 units, 10 - 100 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2340,7 +2340,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 5000 - 5000 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2370,7 +2370,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "4 units, 19 - 400 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2470,7 +2470,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "19 units, 1 - 100 m³; 19 units, 3 - 120 m³",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2507,7 +2507,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "30 units, 1 - 10000 L; 5 units, 0.001 - 10 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2735,7 +2735,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "6 units, 1 - 200 L; 3 units, 0",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2797,7 +2797,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "13 units, 5 - 200 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2862,7 +2862,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 30 - 50 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -2927,7 +2927,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 5 - 150 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3124,7 +3124,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "31 units, 1 - 10 L; 8 units, 1 - 5 kg",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3161,7 +3161,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "14 units, 0.5 - 300 L; 1 units, 1 - 5 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3230,7 +3230,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "5 units, 10 - 10000 L (batch)",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3295,7 +3295,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 100 - 1000 kg; 1 units, 125 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3386,7 +3386,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "3 units, 10 - 32 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3420,7 +3420,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "2 units, 15 - 500 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3663,7 +3663,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 32 kW",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3764,7 +3764,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "5 units, 200 - 4000 L; 5 units, 200 - 4000 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -3986,7 +3986,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "16 units, 2 - 400 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4080,7 +4080,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "19 units, 2 - 300 L; 8 units, 50 - 100 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4116,7 +4116,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "11 units, 1 - 250 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4184,7 +4184,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "8 units, 3 - 3000 L; 2 units, 2000 - 2500 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4315,7 +4315,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "19 units, 4 - 4000 L (batch)",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4350,7 +4350,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "5 units, 1 - 100 L; 6 units, 1 - 150 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4382,7 +4382,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 7 - 30 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4512,7 +4512,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "30 units, 1 - 10000 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4575,7 +4575,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "10 units, 1 - 100 m³",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4763,7 +4763,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "1 units, 20 - 1000 L (batch)",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4890,7 +4890,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "5 units, 5 - 200 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -4959,7 +4959,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "3 units, 10 L; 1 units, 10 L",
     "clients": [],
     "products": [],
     "legacy": "",
@@ -5148,7 +5148,7 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "60 units, 0.5 - 1200 L",
     "clients": [],
     "products": [],
     "legacy": "",
