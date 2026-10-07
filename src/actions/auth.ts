@@ -82,7 +82,7 @@ export async function updateProfile(formData: FormData) {
     await admin.from('profiles').update({ email: newEmail }).eq('id', user.id)
   }
 
-  redirect('/profile?saved=1')
+  redirect('/')
 }
 
 export async function signOut() {
