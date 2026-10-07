@@ -123,9 +123,32 @@ GEO: dict[tuple, tuple] = {
     ("chesterfield", "united states"): (38.6631, -90.5771),
     ("mcpherson", "united states"): (38.3706, -97.6642),
     ("pearland", "united states"): (29.5635, -95.2860),
-    ("belvidere", "united states"): (42.2634, -88.8443),
+    ("belvidere", "united states"): (40.8260, -75.0774),   # Belvidere NJ (dsm-firmenich)
+    ("franklinton", "united states"): (36.0985, -78.4572),
+    ("kingstree", "united states"): (33.6660, -79.8309),
+    ("plainsboro", "united states"): (40.3326, -74.5801),
+    ("schenectady", "united states"): (42.8142, -73.9396),
+    ("tonganoxie", "united states"): (39.1067, -95.0846),
+    ("salem", "united states"): (37.2710, -80.0539),
+    ("west allis", "united states"): (43.0167, -88.0070),
+    # IFF / Evonik / ADM / Cargill / Kerry US sites
+    ("mobile", "united states"): (30.6954, -88.0399),
+    ("rochester", "united states"): (43.1566, -77.6088),
+    ("cedar rapids", "united states"): (41.9779, -91.6656),
+    ("eddyville", "united states"): (41.1536, -92.6349),
+    ("fort dodge", "united states"): (42.4975, -94.1680),
+    ("clinton", "united states"): (41.8447, -90.1887),     # Clinton IA (ADM precision fermentation)
+    ("marshall", "united states"): (44.4464, -95.7897),    # Marshall MN (ADM bioethanol)
+    ("erlanger", "united states"): (38.9873, -84.6002),    # Erlanger KY (ADM WILD)
+    ("beloit", "united states"): (42.5083, -89.0318),      # Beloit WI (Kerry yeast extract)
+    ("jackson", "united states"): (43.3236, -88.1693),     # Jackson WI (Kerry dairy cultures)
+    ("arroyito", "argentina"): (-31.4197, -63.0531),
     # Canada
-    ("mississauga", "canada"): (43.5890, -79.6441),
+    # Brazil
+    ("sete lagoas", "brazil"): (-19.4671, -44.2473),
+    ("campinas", "brazil"): (-22.9056, -47.0608),
+    ("são paulo", "brazil"): (-23.5505, -46.6333),
+    # Canada
     ("charlottetown", "canada"): (46.2382, -63.1311),
     ("toronto", "canada"): (43.6532, -79.3832),
     ("laval", "canada"): (45.6066, -73.7124),
@@ -136,30 +159,211 @@ GEO: dict[tuple, tuple] = {
     # South Korea
     ("incheon", "south korea"): (37.4563, 126.7052),
     ("seoul", "south korea"): (37.5665, 126.9780),
+    ("gunsan", "south korea"): (35.9673, 126.7361),
+    ("jinju", "south korea"): (35.1797, 128.1076),
+    ("daejeon", "south korea"): (36.3504, 127.3845),
     # China
     ("wuxi", "china"): (31.5700, 120.3000),
     ("shanghai", "china"): (31.2304, 121.4737),
     ("beijing", "china"): (39.9042, 116.4074),
+    ("langfang", "china"): (39.5382, 116.6836),
+    ("hulunbuir", "china"): (49.2127, 119.7606),
+    ("shouguang", "china"): (36.8877, 118.7375),
+    ("qujing", "china"): (25.4900, 103.7968),
+    ("yichang", "china"): (30.6942, 111.2867),
+    ("tianjin", "china"): (39.3434, 117.3616),
+    ("bengbu", "china"): (32.9170, 117.3895),
+    ("weifang", "china"): (36.7063, 119.1021),
+    ("zhumadian", "china"): (32.9773, 114.0253),
+    ("qingdao", "china"): (36.0671, 120.3826),
+    ("chengdu", "china"): (30.5728, 104.0668),
+    ("wuhan", "china"): (30.5928, 114.3055),
+    ("nanyang", "china"): (32.9901, 112.5292),
+    ("guigang", "china"): (23.1116, 109.5997),
+    ("dezhou", "china"): (37.4354, 116.3573),
+    ("jilin", "china"): (43.8380, 126.5500),
+    ("renhuai", "china"): (27.7927, 106.3918),
+    ("hohhot", "china"): (40.8420, 111.7498),
+    ("shenzhen", "china"): (22.5431, 114.0579),
+    ("zhuhai", "china"): (22.2708, 113.5767),
+    ("nantong", "china"): (32.0303, 120.8750),
+    ("jining", "china"): (35.4154, 116.5875),    # Jining Shandong (Kerry savoury flavours)
+    ("wuming", "china"): (23.1630, 108.3059),    # Wuming Nanning Guangxi (Evonik REXIM)
+    # Japan
+    ("tokai", "japan"): (35.0177, 136.9058),
+    ("noda", "japan"): (35.9446, 139.8756),
+    ("nagoya", "japan"): (35.1815, 136.9066),
+    ("takasago", "japan"): (34.7656, 134.7964),
+    ("okayama", "japan"): (34.6551, 133.9195),
+    ("anjo", "japan"): (34.9600, 137.0800),
+    ("yokkaichi", "japan"): (34.9648, 136.6245),
+    ("tsukuba", "japan"): (36.0838, 140.0777),
+    ("osaka", "japan"): (34.6937, 135.5023),
+    ("tokyo", "japan"): (35.6762, 139.6503),
+    ("kyoto", "japan"): (35.0116, 135.7681),
+    # India
+    ("thane", "india"): (19.2183, 72.9781),
+    ("pune", "india"): (18.5204, 73.8567),
+    ("solapur", "india"): (17.6805, 75.9064),
+    ("mysuru", "india"): (12.2958, 76.6394),
+    ("tumkur", "india"): (13.3379, 77.1173),
+    ("mumbai", "india"): (19.0760, 72.8777),
+    ("bangalore", "india"): (12.9716, 77.5946),
+    ("hyderabad", "india"): (17.3850, 78.4867),
+    ("new delhi", "india"): (28.6139, 77.2090),
+    # Singapore
+    ("singapore", "singapore"): (1.3521, 103.8198),
+    # Thailand
+    ("rayong", "thailand"): (12.6814, 101.2816),
+    ("nakhon sawan", "thailand"): (15.7030, 100.1365),
+    ("pathum thani", "thailand"): (14.0208, 100.5250),
+    ("bangkok", "thailand"): (13.7563, 100.5018),
+    # Indonesia
+    ("karanganyar", "indonesia"): (-7.5971, 110.9496),
+    ("karawang", "indonesia"): (-6.3212, 107.2909),
+    ("jakarta", "indonesia"): (-6.2088, 106.8456),
+    # Taiwan
+    ("hsinchu", "taiwan"): (24.8138, 120.9675),
+    ("tainan", "taiwan"): (22.9999, 120.2269),
+    ("taipei", "taiwan"): (25.0330, 121.5654),
+    # Malaysia
+    ("kuala lumpur", "malaysia"): (3.1390, 101.6869),
+    ("petaling jaya", "malaysia"): (3.1073, 101.6067),
     # European (global CDMOs, not in Pilots4U pilot facility network)
     ("visp", "switzerland"): (46.2940, 7.8810),
     ("barbengo", "switzerland"): (45.9871, 8.9449),
     ("sisseln", "switzerland"): (47.5580, 7.8878),
+    ("la plaine", "switzerland"): (46.1515, 6.0234),
+    ("lalden", "switzerland"): (46.2882, 7.8891),
     ("berlin", "germany"): (52.5200, 13.4050),
+    ("grenzach-wyhlen", "germany"): (47.5469, 7.6687),
     ("hanau", "germany"): (50.1282, 8.9169),
+    ("wesseling", "germany"): (50.8309, 6.9740),
+    ("barby", "germany"): (51.9643, 11.8864),
+    ("krefeld", "germany"): (51.3388, 6.5853),
+    ("eppelheim", "germany"): (49.4000, 8.6167),
+    ("leipzig", "germany"): (51.3397, 12.3731),
     ("laupheim", "germany"): (48.2284, 9.8783),
     ("biberach an der riß", "germany"): (48.0970, 9.7890),
     ("strängnäs", "sweden"): (59.3791, 17.0289),
     ("kalundborg", "denmark"): (55.6802, 11.0890),
+    ("hørsholm", "denmark"): (55.8745, 12.4896),
+    ("grindsted", "denmark"): (55.7611, 8.9252),
+    ("haderslev", "denmark"): (55.2432, 9.4921),
+    ("brabrand", "denmark"): (56.1537, 10.1200),
     ("oulu", "finland"): (65.0121, 25.4651),
+    ("kantvik", "finland"): (60.1286, 24.4194),
     ("delft", "netherlands"): (52.0116, 4.3571),
+    ("leeuwarden", "netherlands"): (53.2012, 5.7999),
+    ("sas van gent", "netherlands"): (51.2275, 3.7939),
     ("pompey", "france"): (48.7712, 6.1278),
+    ("dangé-saint-romain", "france"): (46.9361, 0.6028),
+    ("ham", "france"): (49.7464, 3.0725),
+    ("antwerp", "belgium"): (51.2194, 4.4025),
+    ("slovenská ľupča", "slovakia"): (48.6667, 19.1333),
+    ("granada", "spain"): (37.1773, -3.5986),
+    ("carrigaline", "ireland"): (51.8190, -8.3940),
     ("billingham", "united kingdom"): (54.6023, -1.2801),
     ("london", "united kingdom"): (51.5074, -0.1278),
     ("cambridge", "united kingdom"): (52.2053, 0.1218),
+    ("dalry", "united kingdom"): (55.7168, -4.7136),
+    # Batch 2 — US
+    ("memphis", "united states"): (35.1495, -90.0490),
+    ("des moines", "united states"): (41.5868, -93.6250),
+    ("hattiesburg", "united states"): (31.3271, -89.2903),
+    ("wilsonville", "united states"): (45.2979, -122.7726),
+    ("boyceville", "united states"): (45.0416, -92.0460),
+    ("juneau", "united states"): (43.4053, -88.7027),        # Juneau WI
+    ("hutchinson", "united states"): (44.8874, -94.3663),    # Hutchinson MN
+    ("coon rapids", "united states"): (42.0241, -94.6791),   # Coon Rapids IA
+    ("jewell", "united states"): (42.3069, -93.6388),
+    ("gowrie", "united states"): (42.2791, -94.2899),
+    ("corning", "united states"): (40.9944, -94.7305),       # Corning IA
+    ("nevada", "united states"): (42.0188, -93.4546),        # Nevada IA
+    ("wood river", "united states"): (41.0819, -98.6014),    # Wood River NE
+    ("central city", "united states"): (41.1172, -98.0028),  # Central City NE
+    ("york", "united states"): (40.8683, -97.5920),          # York NE
+    ("superior", "united states"): (43.4603, -95.1459),      # Superior IA
+    ("fairmont", "united states"): (43.6514, -94.4614),      # Fairmont MN
+    ("shelbyville", "united states"): (39.5214, -85.7769),   # Shelbyville IN
+    ("south bend", "united states"): (41.6764, -86.2520),
+    ("winchester", "united states"): (37.7259, -84.1794),    # Winchester KY
+    # Batch 2 — Canada
+    ("montréal", "canada"): (45.5017, -73.5673),
+    ("lasalle", "canada"): (45.4298, -73.6367),              # LaSalle QC
+    ("port colborne", "canada"): (42.8896, -79.2500),
+    ("veracruz", "mexico"): (19.1738, -96.1342),
+    # Batch 2 — Austria / Germany (extra)
+    ("vienna", "austria"): (48.2082, 16.3738),
+    ("pernhofen", "austria"): (48.8333, 15.9167),
+    ("hamburg", "germany"): (53.5511, 9.9937),
+    ("darmstadt", "germany"): (49.8728, 8.6512),
+    ("schwarzenbach an der saale", "germany"): (50.2040, 11.9283),
+    ("schwedt", "germany"): (53.0572, 14.2769),
+    ("zörbig", "germany"): (51.6167, 12.1333),
+    ("pinnow", "germany"): (52.8500, 13.7833),
+    ("ladenburg", "germany"): (49.4733, 8.6053),
+    # Batch 2 — France / Belgium
+    ("saint-simon", "france"): (45.1667, 2.4500),            # Saint-Simon, Cantal
+    ("marcq-en-baroeul", "france"): (50.6700, 3.0967),
+    ("marckolsheim", "france"): (48.1539, 7.5444),
+    ("ghent", "belgium"): (51.0543, 3.7174),
+    ("herentals", "belgium"): (51.1800, 4.8333),
+    # Batch 2 — Italy
+    ("casteggio", "italy"): (45.0167, 9.1333),
+    ("terni", "italy"): (42.5603, 12.6493),
+    ("novara", "italy"): (45.4470, 8.6200),
+    ("porto torres", "italy"): (40.8384, 8.4008),
+    ("adria", "italy"): (45.0558, 12.0566),
+    # Batch 2 — UK extra
+    ("stokesley", "united kingdom"): (54.4667, -1.2333),
+    ("methwold", "united kingdom"): (52.5333, 0.5833),
+    # Batch 2 — Spain extra
+    ("montmeló", "spain"): (41.5522, 2.2500),
+    # Batch 2 — Scandinavia / Baltics
+    ("rajamäki", "finland"): (60.4167, 24.9167),
+    ("vantaa", "finland"): (60.2934, 25.0378),
+    ("lappeenranta", "finland"): (61.0587, 28.1886),
+    ("salutaguse", "estonia"): (59.0833, 24.6333),
+    # Batch 2 — Japan
+    ("hofu", "japan"): (34.0514, 131.5639),
+    ("ube", "japan"): (33.9522, 131.2464),
+    # Batch 2 — Vietnam
+    ("long thanh", "vietnam"): (10.7898, 107.0430),
+    # Batch 2 — China (extra)
+    ("dehui", "china"): (44.5329, 125.6970),
+    ("xiamen", "china"): (24.4797, 118.0894),
+    ("xinchang", "china"): (29.5020, 120.9000),
+    ("shangyu", "china"): (30.0328, 120.8729),
+    ("suihua", "china"): (46.6360, 126.9940),
+    ("shenyang", "china"): (41.8057, 123.4315),
+    ("dongying", "china"): (37.4346, 118.6748),
+    ("nanjing", "china"): (32.0603, 118.7969),
+    ("jinan", "china"): (36.6512, 117.1201),
+    # Batch 2 — Taiwan extra
+    ("taichung", "taiwan"): (24.1477, 120.6736),
+    # Batch 2 — India
+    ("ahmedabad", "india"): (23.0225, 72.5714),
+    # Batch 2 — Indonesia (extra)
+    ("malang", "indonesia"): (-7.9797, 112.6304),
+    # Batch 2 — Brazil
+    ("jaguariúna", "brazil"): (-22.7048, -46.9876),
+    ("triunfo", "brazil"): (-29.9358, -51.7233),
+    ("campos dos goytacazes", "brazil"): (-21.7609, -41.3289),
+    ("barra bonita", "brazil"): (-22.4944, -48.5567),
+    ("piracicaba", "brazil"): (-22.7253, -47.6492),
+    ("guariba", "brazil"): (-21.3619, -48.2300),
+    ("valparaíso", "brazil"): (-21.2272, -50.8761),
+    ("morro agudo", "brazil"): (-20.7333, -48.0569),
+    # Batch 2 — Netherlands extra
+    ("gorinchem", "netherlands"): (51.8333, 4.9667),
 }
 
 # Facility name → (lat, lng) overrides for ambiguous cases
 NAME_GEO: dict[str, tuple] = {
+    "dsm-firmenich belvidere": (40.8260, -75.0774),   # Belvidere NJ, not IL
+    "dsm-firmenich newark": (40.7357, -74.1724),      # Newark NJ, not Newark DE
+    "adm columbus – bioethanol & carbon capture": (41.4299, -97.3691),    # Columbus NE, not OH
     "niimbl (national institute for innovation in manufacturing biopharmaceuticals)": (39.6837, -75.7497),
     "nc state btec": (35.7869, -78.6748),
     "mit koch institute (pilot scale biomanufacturing)": (42.3604, -71.0921),
@@ -215,7 +419,11 @@ def region_for(country: str) -> str:
         "luxembourg", "slovenia",
     }
     NA = {"united states", "usa", "canada", "mexico"}
-    ASIA = {"south korea", "china", "japan", "india", "singapore", "taiwan"}
+    ASIA = {
+        "south korea", "china", "japan", "india", "singapore", "taiwan",
+        "thailand", "indonesia", "malaysia", "vietnam", "philippines",
+        "hong kong", "bangladesh", "pakistan",
+    }
     c = country.strip().lower()
     if c in NA:
         return "North America"
@@ -223,7 +431,7 @@ def region_for(country: str) -> str:
         return "Europe"
     if c in ASIA:
         return "Asia"
-    if c in ("brazil", "argentina", "chile", "colombia"):
+    if c in ("brazil", "argentina", "chile", "colombia", "peru", "uruguay", "paraguay", "bolivia", "ecuador", "venezuela"):
         return "South America"
     if c in ("australia", "new zealand"):
         return "Oceania"

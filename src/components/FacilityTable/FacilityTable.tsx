@@ -1,6 +1,6 @@
 // src/components/FacilityTable/FacilityTable.tsx
 'use client'
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import {
   useTable,
   flexRender,
@@ -25,6 +25,11 @@ export default function FacilityTable({
 }: FacilityTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
 
+  // Scroll the selected row into view when it mounts (map click → row may be off-screen)
+  const selectedRowRef = useCallback((el: HTMLTableRowElement | null) => {
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [])
+
   const columns = allColumns.filter(
     (col) => columnVisibility[(col as { id?: string }).id ?? ''] !== false
   )
@@ -39,7 +44,7 @@ export default function FacilityTable({
   })
 
   return (
-    <div className="overflow-x-auto">
+    <div>
       <table className="w-full text-sm border-collapse">
         <thead className="bg-gray-100 sticky top-0 z-10">
           {table.getHeaderGroups().map((hg) => (
@@ -64,6 +69,7 @@ export default function FacilityTable({
             return (
               <React.Fragment key={row.id}>
                 <tr
+                  ref={isSelected ? selectedRowRef : undefined}
                   onClick={() => setSelectedId(isSelected ? null : row.id)}
                   className={`border-b border-gray-100 cursor-pointer transition-colors
                     ${isSelected ? 'bg-emerald-50' : 'hover:bg-gray-50'}`}

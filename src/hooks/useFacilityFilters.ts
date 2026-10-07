@@ -1,6 +1,6 @@
 // src/hooks/useFacilityFilters.ts
 'use client'
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import type { Facility, Modality, FacilityType } from '@/types/facility'
 
 export function useFacilityFilters(initialFacilities: Facility[]) {
@@ -27,6 +27,13 @@ export function useFacilityFilters(initialFacilities: Facility[]) {
       return matchesSearch && matchesModality && matchesRegion && matchesType
     })
   }, [initialFacilities, globalSearch, modality, region, facilityType])
+
+  // Clear selection when the selected facility is filtered out
+  useEffect(() => {
+    if (selectedId && !filtered.some((f) => f.id === selectedId)) {
+      setSelectedId(null)
+    }
+  }, [filtered, selectedId])
 
   return {
     facilities: initialFacilities,

@@ -2,6 +2,8 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { Facility, Modality, FacilityType } from '@/types/facility'
 
+export type ColumnFilters = Record<string, string[]>
+
 export interface FilterOptions {
   modalities: Modality[]
   regions: string[]
@@ -16,11 +18,32 @@ export function getFilterOptions(facilities: Facility[]): FilterOptions {
   }
 }
 
-export async function fetchFacilities(supabase: SupabaseClient): Promise<Facility[]> {
-  const { data, error } = await supabase
-    .from('facilities')
-    .select('*')
-    .order('name')
+export async function fetchColumnFilters(
+  supabase: SupabaseClient
+): Promise<ColumnFilters> {
+  const { data } = await supabase
+    .from('settings')
+    .select('value')
+    .eq('key', 'column_filters')
+    .single()
+  return (data?.value as ColumnFilters) ?? {}
+}
+
+export async function fetchFacilities(
+  supabase: SupabaseClient,
+  columnFilters?: ColumnFilters
+): Promise<Facility[]> {
+  let query = supabase.from('facilities').select('*').order('name')
+
+  if (columnFilters) {
+    if (columnFilters.region?.length)       query = query.in('region', columnFilters.region)
+    if (columnFilters.facilityType?.length) query = query.in('facility_type', columnFilters.facilityType)
+    if (columnFilters.country?.length)      query = query.in('country', columnFilters.country)
+    if (columnFilters.source?.length)       query = query.in('source', columnFilters.source)
+    if (columnFilters.modality?.length)     query = query.containedBy('modalities', columnFilters.modality)
+  }
+
+  const { data, error } = await query
   if (error) throw new Error(error.message)
   return (data ?? []).map((row) => ({
     id: row.id,

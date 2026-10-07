@@ -4,6 +4,8 @@ import { useState } from 'react'
 import UsersTab from '@/components/admin/UsersTab'
 import ColumnVisibilityTab from '@/components/admin/ColumnVisibilityTab'
 import FacilitiesTab from '@/components/admin/FacilitiesTab'
+import type { AllFilterValues } from '@/components/admin/ContentFiltersTab'
+import type { ColumnFilters } from '@/lib/facilities'
 
 type Tab = 'users' | 'columns' | 'facilities'
 
@@ -18,10 +20,22 @@ interface Profile {
 interface AdminClientProps {
   users: Profile[]
   columnVisibility: Record<string, boolean>
+  columnFilters: ColumnFilters
+  allFilterValues: AllFilterValues
+  valueCounts: Record<string, Record<string, number>>
+  totalFacilities: number
   facilities: import('@/types/facility').Facility[]
 }
 
-export default function AdminClient({ users, columnVisibility, facilities }: AdminClientProps) {
+export default function AdminClient({
+  users,
+  columnVisibility,
+  columnFilters,
+  allFilterValues,
+  valueCounts,
+  totalFacilities,
+  facilities,
+}: AdminClientProps) {
   const [activeTab, setActiveTab] = useState<Tab>('users')
 
   const tabClass = (tab: Tab) =>
@@ -38,7 +52,7 @@ export default function AdminClient({ users, columnVisibility, facilities }: Adm
           Users
         </button>
         <button className={tabClass('columns')} onClick={() => setActiveTab('columns')}>
-          Column Visibility
+          Columns
         </button>
         <button className={tabClass('facilities')} onClick={() => setActiveTab('facilities')}>
           Facilities
@@ -47,7 +61,13 @@ export default function AdminClient({ users, columnVisibility, facilities }: Adm
 
       {activeTab === 'users' && <UsersTab users={users} />}
       {activeTab === 'columns' && (
-        <ColumnVisibilityTab columnVisibility={columnVisibility} />
+        <ColumnVisibilityTab
+          columnVisibility={columnVisibility}
+          columnFilters={columnFilters}
+          allFilterValues={allFilterValues}
+          valueCounts={valueCounts}
+          totalFacilities={totalFacilities}
+        />
       )}
       {activeTab === 'facilities' && <FacilitiesTab facilities={facilities} />}
     </div>

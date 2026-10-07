@@ -35,6 +35,15 @@ export async function updateColumnVisibility(visibility: Record<string, boolean>
   if (error) throw new Error(error.message)
 }
 
+export async function updateColumnFilters(filters: Record<string, string[]>) {
+  await requireAdmin()
+  const admin = createSupabaseAdminClient()
+  const { error } = await admin
+    .from('settings')
+    .upsert({ key: 'column_filters', value: filters })
+  if (error) throw new Error(error.message)
+}
+
 export interface FacilityFormData {
   id: string
   name: string

@@ -39,7 +39,7 @@ export default function FacilityPageClient({
             setSelectedId={filters.setSelectedId}
           />
         </div>
-        <div className="flex-1 overflow-auto">
+        <div className="flex-1 overflow-auto min-w-0">
           <FacilityTable
             filtered={filters.filtered}
             selectedId={filters.selectedId}
