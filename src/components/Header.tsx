@@ -5,14 +5,17 @@ export default async function Header() {
   const supabase = createSupabaseServerClient()
   const { data: { user } } = await supabase.auth.getUser()
 
-  let isAdmin = false
+  let isAdmin     = false
+  let displayName = ''
+
   if (user) {
     const { data: profile } = await supabase
       .from('profiles')
-      .select('role')
+      .select('role, username, first_name')
       .eq('id', user.id)
       .single()
-    isAdmin = profile?.role === 'admin'
+    isAdmin     = profile?.role === 'admin'
+    displayName = profile?.username || profile?.first_name || user.email?.split('@')[0] || ''
   }
 
   return (
@@ -34,7 +37,7 @@ export default async function Header() {
               Admin
             </a>
           )}
-          <ProfileDropdown email={user.email ?? ''} isAdmin={isAdmin} />
+          <ProfileDropdown email={user.email ?? ''} displayName={displayName} isAdmin={isAdmin} />
         </div>
       )}
     </header>
