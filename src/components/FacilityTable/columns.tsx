@@ -44,9 +44,16 @@ export const allColumns = helper.columns([
     header: 'Region',
     cell: (info) => <span className="text-gray-600">{info.getValue()}</span>,
   }),
+  helper.accessor((row) => row.products.slice(0, 2).join(' · '), {
+    id: 'products',
+    header: 'Main products',
+    cell: (info) => (
+      <span className="text-sm text-gray-600">{info.getValue() || '—'}</span>
+    ),
+  }),
   helper.accessor('capacity', {
     id: 'capacity',
-    header: 'Fermentors',
+    header: 'Annual capacity (est.)',
     cell: (info) => <span className="text-sm text-gray-600">{info.getValue() || '—'}</span>,
   }),
 ])

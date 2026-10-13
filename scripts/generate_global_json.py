@@ -541,6 +541,8 @@ def excel_to_json(row: dict, existing_id=None) -> dict:
     extra         = str(row.get("Extra information", "") or "").strip()
     logo          = str(row.get("Logo", "") or "").strip()
     p4u_page      = str(row.get("Pilots4U page", "") or "").strip()
+    main_products_raw = str(row.get("Main products", "") or "").strip()
+    capacity_raw      = str(row.get("Annual capacity (est.)", "") or "").strip()
 
     slug = existing_id if existing_id else slugify(facility_name)
 
@@ -607,9 +609,9 @@ def excel_to_json(row: dict, existing_id=None) -> dict:
         "facilityType": facility_type,
         "modalities": modalities,
         "scale": scale,
-        "capacity": "",
+        "capacity": capacity_raw,
         "clients": [],
-        "products": [],
+        "products": [p.strip() for p in main_products_raw.split("\n") if p.strip()],
         "legacy": legacy,
         "certifications": certs,
         "website": website,
@@ -654,6 +656,13 @@ for row in excel_rows:
             entry["website"] = str(row["Website"])
         if not entry.get("notes") and row.get("About"):
             entry["notes"] = str(row["About"])
+        # Always overwrite products/capacity from Excel (these are the source of truth)
+        raw_prod = str(row.get("Main products", "") or "").strip()
+        raw_cap  = str(row.get("Annual capacity (est.)", "") or "").strip()
+        if raw_prod:
+            entry["products"] = [p.strip() for p in raw_prod.split("\n") if p.strip()]
+        if raw_cap:
+            entry["capacity"] = raw_cap
     else:
         # New entry: build from Excel row
         entry = excel_to_json(row)

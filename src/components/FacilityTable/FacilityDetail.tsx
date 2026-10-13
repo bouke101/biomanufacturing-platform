@@ -5,17 +5,25 @@ export default function FacilityDetail({ facility }: { facility: Facility }) {
   return (
     <div className="p-4 bg-emerald-50 border-t border-emerald-100">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-        <div>
-          <p className="font-semibold text-gray-800 mb-1">Capacity</p>
-          <p className="text-gray-600">{facility.capacity || '—'}</p>
-        </div>
+        {facility.products.length > 0 && (
+          <div className="md:col-span-2">
+            <p className="font-semibold text-gray-800 mb-1">Main products</p>
+            <ul className="list-disc list-inside space-y-0.5">
+              {facility.products.map((p, i) => (
+                <li key={i} className="text-gray-600 text-sm">{p}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {facility.capacity && (
+          <div className="md:col-span-2">
+            <p className="font-semibold text-gray-800 mb-1">Annual capacity (est.)</p>
+            <p className="text-gray-600 whitespace-pre-line">{facility.capacity}</p>
+          </div>
+        )}
         <div>
           <p className="font-semibold text-gray-800 mb-1">Scale</p>
           <p className="text-gray-600">{facility.scale.join(' · ')}</p>
-        </div>
-        <div>
-          <p className="font-semibold text-gray-800 mb-1">Products</p>
-          <p className="text-gray-600">{facility.products.join(', ') || '—'}</p>
         </div>
         <div>
           <p className="font-semibold text-gray-800 mb-1">Known clients</p>

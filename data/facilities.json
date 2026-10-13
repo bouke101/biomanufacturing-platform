@@ -628,9 +628,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "20 units, 20 - 50 L",
+    "capacity": "Riboflavin: ~3,000–5,000 MT/yr (one of world's top 2 producers)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin B2 (riboflavin, Ashbya gossypii fermentation)",
+      "Specialty biotech enzymes and biotransformation products"
+    ],
     "legacy": "",
     "certifications": [],
     "website": "https://www.basf.com/global/de",
@@ -2130,9 +2133,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Resveratrol: ~10–30 MT/yr (niche premium ingredient)",
     "clients": [],
-    "products": [],
+    "products": [
+      "trans-Resveratrol (natural, Botrytis cinerea fermentation)",
+      "Polyphenols by yeast fermentation"
+    ],
     "legacy": "",
     "certifications": [],
     "website": "",
@@ -4518,9 +4524,12 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "CDMO — capacity by contract; >10 × 15,000 L bioreactors at Portsmouth campus",
     "clients": [],
-    "products": [],
+    "products": [
+      "Mammalian cell culture biologics (monoclonal antibodies, fusion proteins)",
+      "Contract biologics manufacturing (CDMO)"
+    ],
     "legacy": "State: NH. Part of Lonza's global biologics CDMO network. Capacity ~20,000 L mammalian.",
     "certifications": [
       "FDA cGMP",
@@ -4556,9 +4565,12 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "CDMO — capacity by contract; major Hopkinton campus",
     "clients": [],
-    "products": [],
+    "products": [
+      "Mammalian cell culture biologics (CDMO)",
+      "Gene therapy viral vectors"
+    ],
     "legacy": "State: MA. Historical Millipore site, integrated into Lonza portfolio.",
     "certifications": [
       "FDA cGMP",
@@ -4592,9 +4604,11 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "CDMO — capacity by contract; Vacaville ~90,000 L total bioreactor volume",
     "clients": [],
-    "products": [],
+    "products": [
+      "Mammalian cell culture biologics (mAbs, fusion proteins, CDMO)"
+    ],
     "legacy": "State: CA. Former Genentech Vacaville site, purchased by Lonza in 2011.",
     "certifications": [
       "FDA cGMP",
@@ -5280,9 +5294,12 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "CDMO — contract volumes undisclosed",
     "clients": [],
-    "products": [],
+    "products": [
+      "Pharmaceutical amino acid-based APIs and intermediates (CDMO)",
+      "Injectable-grade amino acid formulations"
+    ],
     "legacy": "State: CA. Subsidiary of Ajinomoto Co. (Japan). Formerly Althea Technologies, rebranded 2014.",
     "certifications": [
       "FDA cGMP",
@@ -7147,13 +7164,12 @@
       "Pilot",
       "Commercial"
     ],
-    "capacity": "~100,000 L total bioreactor volume",
+    "capacity": "CDMO — capacity by contract; Visp is Lonza's largest site",
     "clients": [],
     "products": [
-      "Monoclonal antibodies",
-      "Recombinant proteins",
-      "ADCs",
-      "Small molecules"
+      "Pharmaceutical APIs and intermediates (CDMO)",
+      "Small-molecule and large-molecule synthesis",
+      "Nicotinamide, Vitamin B3"
     ],
     "legacy": "Founded 1897 as an electrochemical plant. Pivoted to biopharmaceutical CDMO services in the 1990s; now one of the world's largest CDMO sites.",
     "certifications": [
@@ -7383,13 +7399,10 @@
       "Pilot",
       "Commercial"
     ],
-    "capacity": "Commercial-scale fermentation up to 80,000 L",
+    "capacity": "CDMO — contract volumes undisclosed",
     "clients": [],
     "products": [
-      "Amino acids",
-      "Peptides",
-      "ADC payloads",
-      "HPAPIs"
+      "Pharmaceutical amino acids and specialty chemicals (CDMO)"
     ],
     "legacy": "Site originated as Pfizer's fermentation facility; acquired by Ajinomoto in 2010 to expand their bio-pharma services division.",
     "certifications": [
@@ -7494,15 +7507,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "One of Europe's largest industrial fermentation complexes",
+    "capacity": "~80% of Novonesis global enzyme production; est. ~80,000–100,000 MT/yr total enzyme products",
     "clients": [
       "Novo Nordisk (insulin)",
       "Multiple industrial customers"
     ],
     "products": [
-      "Enzymes",
-      "Probiotics",
-      "Industrial fermentation products"
+      "Industrial enzymes: amylases, lipases, proteases, cellulases",
+      "Food enzymes (lactase, pectinase, glucose oxidase)",
+      "Biofuel enzymes (cellulases, xylanases)"
     ],
     "legacy": "Novozymes founded 2000 as spin-off from Novo Nordisk. Merged with Chr. Hansen to form Novonesis in 2024. Kalundborg site operational since the 1940s.",
     "certifications": [
@@ -7536,13 +7549,12 @@
       "Pilot",
       "Commercial"
     ],
-    "capacity": "Multiple fermentation suites at development and pilot scale",
+    "capacity": "Enzyme production: volumes not disclosed; global R&D and biotech innovation campus",
     "clients": [],
     "products": [
-      "Food cultures",
-      "Probiotics",
-      "Enzymes",
-      "Nutritional ingredients"
+      "Enzymes: Maxazyme® (protein cross-linking), Tolerase G® (gluten tolerance)",
+      "MaxilactLGX™ (lactase)",
+      "HMO pilot fermentation"
     ],
     "legacy": "Originated as Gist-Brocades (1869), became DSM in 1998 and merged with Firmenich in 2023. The Delft Biotechnology Campus is the global R&D and development heart of the company.",
     "certifications": [
@@ -7574,12 +7586,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "Large-scale commercial fermentation for vitamins and nutritional ingredients",
+    "capacity": "Vitamin E: ~20,000–25,000 MT/yr\nVitamin A: ~3,000–5,000 MT/yr\nCarotenoids (astaxanthin, beta-carotene): hundreds of MT/yr",
     "clients": [],
     "products": [
-      "Vitamins (B2, B12)",
-      "Carotenoids",
-      "Nutritional ingredients"
+      "Vitamin E (all-rac-α-tocopheryl acetate, RRR-α-tocopherol)",
+      "Vitamin A (retinyl acetate, retinyl palmitate)",
+      "Astaxanthin (Lucarotin®, algal source)",
+      "Omega-3 fish oil concentrate (Meg-3®)"
     ],
     "legacy": "Site established by Hoffmann-La Roche in the 1940s for vitamin production; acquired by DSM in 2003.",
     "certifications": [
@@ -7611,12 +7624,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "Large-scale commercial fermentation for amino acids and food ingredients",
+    "capacity": "L-Lysine: ~500,000 MT/yr (Incheon; CJ total global >1,000,000 MT/yr)\nL-Tryptophan: ~30,000 MT/yr\nL-Threonine: ~200,000 MT/yr",
     "clients": [],
     "products": [
-      "Amino acids (lysine, threonine, tryptophan)",
-      "Nucleotides (IMP, GMP)",
-      "Food flavor ingredients"
+      "L-Lysine HCl 98.5% (CJ Bio™ Lysine, feed grade)",
+      "L-Tryptophan (CJ Bio™ Tryptophan)",
+      "L-Threonine (CJ Bio™ Threonine)",
+      "L-Valine",
+      "L-Isoleucine"
     ],
     "legacy": "CJ CheilJedang (founded 1953) is one of the world's top producers of fermentation-derived amino acids and food ingredients. The BIO division was established in the 1980s.",
     "certifications": [
@@ -7650,12 +7665,13 @@
       "Pilot",
       "Commercial"
     ],
-    "capacity": "Commercial fermentation for amino acids and pharma excipients",
+    "capacity": "Pharma amino acids: ~500–2,000 MT/yr combined (GMP-grade, high value)",
     "clients": [],
     "products": [
-      "Amino acids (pharma grade)",
-      "Lipid excipients",
-      "LNP formulations"
+      "Pharmaceutical-grade L-amino acids (parenteral nutrition grade)",
+      "L-methionine (pharma)",
+      "Glycine (pharma)",
+      "L-alanine (pharma)"
     ],
     "legacy": "Evonik's pharma ingredients heritage traces to Degussa (founded 1843). The health care business unit was formalized in 2010.",
     "certifications": [
@@ -7727,12 +7743,11 @@
       "Pilot",
       "Commercial"
     ],
-    "capacity": "Up to 75,000 L fermentation capacity",
+    "capacity": "CDMO — capacity by contract; microbial fermentation specialist",
     "clients": [],
     "products": [
-      "Recombinant proteins (microbial)",
-      "Enzymes",
-      "Insulin precursors"
+      "Microbial fermentation products (CDMO)",
+      "Bacterial and yeast-derived APIs and biologics"
     ],
     "legacy": "Originally part of Wyeth Biopharma. Acquired by Lonza in 2012 to strengthen microbial fermentation capabilities.",
     "certifications": [
@@ -7870,9 +7885,11 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "CDMO — capacity by contract",
     "clients": [],
-    "products": [],
+    "products": [
+      "Mammalian cell culture biologics (CDMO)"
+    ],
     "legacy": "Source ID: 1003",
     "certifications": [
       "FDA approved",
@@ -9094,9 +9111,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr enzymes (North American production satellite)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Industrial enzymes for biofuels and agriculture",
+      "Biological crop protection agents"
+    ],
     "legacy": "Major US hub for Novozymes' industrial enzyme business.",
     "certifications": [
       "ISO 9001",
@@ -9129,9 +9149,13 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Vitamin C: ~10,000–15,000 MT/yr\nVitamin E: several thousand MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin C (L-ascorbic acid, two-step fermentation)",
+      "Vitamin E",
+      "Carotenoids (beta-carotene, lycopene)"
+    ],
     "legacy": "One of the world's largest vitamin B12 production sites.",
     "certifications": [
       "FDA GRAS",
@@ -10012,9 +10036,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "L-Lysine: ~200,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lysine HCl (feed grade, corn-fermentation)",
+      "Lysine liquid (70% solution)"
+    ],
     "legacy": "Source ID: 4010",
     "certifications": [
       "ISO 9001",
@@ -10112,9 +10139,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "L-Glutamic acid: ~500,000 MT/yr\nL-Lysine HCl: ~300,000–500,000 MT/yr\nXanthan gum: ~50,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Glutamic acid (MSG precursor)",
+      "L-Lysine HCl (feed grade)",
+      "L-Threonine",
+      "Xanthan gum",
+      "Corn starch and derivatives"
+    ],
     "legacy": "Listed on Shenzhen Stock Exchange. Largest single-site amino acid fermentation complex in the world.",
     "certifications": [
       "ISO 9001",
@@ -10149,9 +10182,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "MSG: ~900,000 MT/yr (world's largest single MSG company)\nXanthan gum: ~100,000 MT/yr (world's #1 xanthan producer)\nL-Threonine: ~200,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "MSG (monosodium glutamate, AJI-NO-MOTO® equivalent)",
+      "Xanthan gum",
+      "L-Threonine",
+      "Corn starch and glucose syrup"
+    ],
     "legacy": "Listed on Hong Kong Stock Exchange. Also produces functional starch products and animal nutrition ingredients.",
     "certifications": [
       "ISO 9001",
@@ -10184,9 +10222,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "L-Lysine: ~200,000–300,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lysine HCl (feed grade)",
+      "L-Threonine",
+      "Other feed amino acids"
+    ],
     "legacy": "Exports MSG and glutamic acid to SE Asia, Africa and Middle East.",
     "certifications": [
       "ISO 9001",
@@ -10292,9 +10334,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~20,000–40,000 MT/yr (wet weight)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh, active dry, instant dry)",
+      "Specialty yeast for Chinese bakery and food market"
+    ],
     "legacy": "Part of Lesaffre Group global production network. Serves bakeries and food manufacturers across China and SE Asia.",
     "certifications": [
       "ISO 9001",
@@ -10329,9 +10374,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~300M liters/yr\nLactic acid: ~50,000–80,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Bioethanol (corn-based)",
+      "Lactic acid (corn fermentation)",
+      "Corn starch and glucose",
+      "Amino acids"
+    ],
     "legacy": "Annual citric acid capacity ~200,000 tonnes. Associated with COFCO Group ecosystem.",
     "certifications": [
       "ISO 9001",
@@ -10438,9 +10488,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr enzymes (Novonesis China production)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Industrial enzymes for Chinese market (amylases, proteases, lipases)",
+      "Agricultural bioprotection enzymes"
+    ],
     "legacy": "Part of dsm-firmenich following 2023 merger. Serves China and Asia-Pacific markets.",
     "certifications": [
       "ISO 9001",
@@ -10623,9 +10676,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~1 billion liters/yr\nStarch/glucose: hundreds of thousands MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "Corn starch, glucose syrup and HFCS",
+      "Amino acids",
+      "CO₂ (food grade, from fermentation)"
+    ],
     "legacy": "Part of COFCO Group, China's largest food processing enterprise. Annual capacity ~500,000 tonnes fuel ethanol.",
     "certifications": [
       "ISO 9001",
@@ -10762,9 +10820,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Corn starch + derivatives: ~100,000–200,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn starch (native, modified)",
+      "Maltodextrin",
+      "Glucose syrups and dextrose",
+      "Sorbitol and mannitol (polyols)"
+    ],
     "legacy": "Key supplier of fermentation substrates to Chinese industrial biotech. Part of Roquette Group.",
     "certifications": [
       "ISO 9001",
@@ -10835,9 +10898,13 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Cultures and enzymes: thousands of MT/yr combined",
     "clients": [],
-    "products": [],
+    "products": [
+      "Food and probiotic cultures for Chinese market",
+      "Industrial enzymes (amylase, protease, cellulase)",
+      "Specialty fermentation ingredients"
+    ],
     "legacy": "Global leader in food cultures and probiotics. Part of IFF group (merged with DuPont N&B 2021).",
     "certifications": [
       "ISO 9001",
@@ -11290,9 +11357,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "MSG: Tokai est. ~50,000–100,000 MT/yr (Ajinomoto global: ~600,000 MT/yr)\nNucleotides: ~10,000–15,000 MT/yr\nAmino acids: ~50,000–100,000 MT/yr (Tokai share)",
     "clients": [],
-    "products": [],
+    "products": [
+      "MSG (AJI-NO-MOTO® monosodium glutamate)",
+      "L-Glutamic acid",
+      "Aspartame (Equal® co-production, Tokai)",
+      "Nucleotides (5'-IMP, 5'-GMP, IMP·GMP blend)",
+      "L-Lysine, L-Threonine (food and feed grade)"
+    ],
     "legacy": "Ajinomoto operates 30+ production sites globally. Pioneer of industrial amino acid fermentation since 1956.",
     "certifications": [
       "ISO 9001",
@@ -11576,9 +11649,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "L-Lysine: CJ Bio global >1,000,000 MT/yr total; Incheon core site est. ~500,000 MT/yr\nL-Tryptophan: ~30,000 MT/yr\nL-Threonine: ~200,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lysine HCl and sulfate (CJ Bio™, largest global lysine producer)",
+      "L-Tryptophan",
+      "L-Threonine",
+      "L-Valine",
+      "L-Isoleucine"
+    ],
     "legacy": "World's largest lysine exporter. Bio Division production sites in Korea, USA, Brazil, Indonesia and China.",
     "certifications": [
       "ISO 9001",
@@ -12245,9 +12324,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Premixes and vitamin formulations: tens of thousands MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Nutritional premixes (Quali-Blends™ vitamin/mineral/amino acid premixes)",
+      "Pharmaceutical vitamin formulations",
+      "Microencapsulated and coated vitamins"
+    ],
     "legacy": "~1,500 employees. Fermentative riboflavin (B2) capacity among top 3 globally. Operates since 1940s under Roche then DSM then dsm-firmenich.",
     "certifications": [
       "ISO 9001",
@@ -12281,9 +12364,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Vitamin D3 pure: ~500–900 MT/yr (world's largest single D3 plant; ~20–30% of global supply)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin D3 (cholecalciferol, from lanolin wool-grease photosynthesis)",
+      "Vitamin D2 (ergocalciferol)",
+      "D3 oil solutions and emulsions (human and animal nutrition grades)"
+    ],
     "legacy": "New Bovaer® (3-NOP) dedicated plant opened 2025. Key site for animal nutrition and climate solutions portfolio.",
     "certifications": [
       "ISO 9001",
@@ -12316,9 +12403,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Natamycin: ~1,000–2,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Natamycin (DelvoCid®, natural antifungal food preservative)",
+      "Specialty food enzymes",
+      "Functional dairy ingredients"
+    ],
     "legacy": "Produces Delvo® dairy cultures and nisin preservative. Part of dsm-firmenich Food & Beverage division.",
     "certifications": [
       "ISO 9001",
@@ -12352,9 +12443,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Fragrance ingredients: tens of thousands MT/yr; exact volumes confidential",
     "clients": [],
-    "products": [],
+    "products": [
+      "Fine fragrance compounds and bases (Firmenich heritage)",
+      "Perfumery ingredients (musks, florals, aromatic chemicals)",
+      "Encapsulated fragrance ingredients",
+      "Flavor creation and application"
+    ],
     "legacy": "~1,450 employees. 3 production plants. Biotechnology pilot centre for Taste & Flavour fermentation innovation. Centre of former Firmenich group.",
     "certifications": [
       "ISO 9001",
@@ -12386,9 +12482,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Premix blends: several thousand MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin and mineral premixes (animal and human nutrition)",
+      "Feed-grade micronutrient blends"
+    ],
     "legacy": "Part of the dsm-firmenich Swiss vitamin manufacturing network together with Sisseln.",
     "certifications": [
       "ISO 9001",
@@ -12421,9 +12520,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Animal nutrition products: tens of thousands MT/yr (largest Brazilian animal nutrition brand)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Animal nutrition premixes and supplements (Tortuga brand)",
+      "Mineral licks and feed blocks for Brazilian livestock",
+      "Feed additives and mineral mixes"
+    ],
     "legacy": "Opened October 2024. Capacity ~100,000 t/yr. Tortuga® brand (Brazilian market leader in cattle nutrition, owned by DSM/dsm-firmenich since 2004).",
     "certifications": [
       "ISO 9001",
@@ -12458,9 +12561,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~80,000–100,000 MT/yr total fermentation output (crude enzyme broth); concentrated enzyme products ~20,000–30,000 MT/yr; ~85% of Novonesis global enzyme volume",
     "clients": [],
-    "products": [],
+    "products": [
+      "Industrial enzymes: amylases (Spirizyme®, Termamyl®), lipases, proteases",
+      "Biofuel enzymes (Cellic® CTec3)",
+      "Agricultural bioprotection (Taegro®, Actinovate®)",
+      "Food enzymes (Novozym® 435 lipase, Palatase®)",
+      "Laundry enzymes (Mannaway®, Lipolase®)"
+    ],
     "legacy": "World's largest enzyme production site. Part of Kalundborg Symbiosis (world's first industrial symbiosis network, 1972). ~750 employees. Owned by Novonesis (Novozymes + Chr. Hansen merger 2023).",
     "certifications": [
       "ISO 9001",
@@ -12495,9 +12604,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Cultures and probiotics: hundreds of MT/yr freeze-dried (high CFU concentrates)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Dairy starter cultures (Chr. Hansen heritage): yogurt (Yo-Mix®), cheese (DVS® Direct Vat Set), butter, sour cream",
+      "Probiotic cultures (HN001™ Lactobacillus rhamnosus, BB-12® Bifidobacterium)",
+      "Food protection cultures (FreshQ®, SafePro®)",
+      "Wine and kombucha cultures"
+    ],
     "legacy": "Novonesis group HQ. World's largest LAB strain collection (~50,000 strains). BB-12® is world's most documented probiotic. Chr. Hansen heritage since 1874.",
     "certifications": [
       "ISO 9001",
@@ -12533,9 +12647,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr (North American enzyme production satellite)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Enzymes for North American biofuel and agriculture markets",
+      "Biological crop protection agents"
+    ],
     "legacy": "Novonesis North America HQ and main US production site. ~700 NC employees. Key supplier to US corn ethanol and food processing industries.",
     "certifications": [
       "ISO 9001",
@@ -12568,9 +12685,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Hundreds of MT/yr freeze-dried cultures and probiotics",
     "clients": [],
-    "products": [],
+    "products": [
+      "Food cultures, probiotics (Chr. Hansen legacy production site)",
+      "Dairy and specialty fermentation cultures"
+    ],
     "legacy": "75+ year history in spore-based microbial products. $5M expansion 2025. Key site for Novonesis BioAg and biosolutions portfolio.",
     "certifications": [
       "ISO 9001",
@@ -12602,9 +12722,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Hundreds of MT/yr freeze-dried cultures",
     "clients": [],
-    "products": [],
+    "products": [
+      "Dairy starter cultures (yogurt, cheese, butter)",
+      "Probiotic blends for food and beverage applications"
+    ],
     "legacy": "Founded 1929 (Chr. Hansen North America legacy). 280 employees. $75M expansion planned. Key probiotics supplier for North American dietary supplements.",
     "certifications": [
       "ISO 9001",
@@ -12640,9 +12763,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~15,000 MT/yr algal omega-3 oil (Veramaris®)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Algal DHA + EPA omega-3 oil (Veramaris® 50% DHA+EPA)",
+      "Animal-free omega-3 for salmon aquaculture and pet nutrition"
+    ],
     "legacy": "50/50 JV between BASF and DSM (dsm-firmenich). Opened 2019. ~1,200 t/yr EPA+DHA capacity. Co-located with Novonesis Blair campus. Supplies salmon and trout aquaculture globally.",
     "certifications": [
       "ISO 9001",
@@ -12677,9 +12803,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Canthaxanthin: ~100–300 MT/yr\nBeta-carotene: ~200–500 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Canthaxanthin (Carophyll® Red, feed and food grade)",
+      "Beta-carotene (Carophyll® Yellow)",
+      "Apocarotenal (Carophyll® Roche-orange)"
+    ],
     "legacy": "Produces canthaxanthin for salmon/trout aquaculture pigmentation and poultry skin colour. Part of dsm-firmenich Animal Nutrition & Health.",
     "certifications": [
       "ISO 9001",
@@ -12713,9 +12843,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Flavors and fragrances: several thousand MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Encapsulated flavor ingredients (Firmenich heritage)",
+      "Fragrance ingredients for personal care and home care",
+      "Spray-dried flavor emulsions",
+      "Taste molecules (fermentation-derived)"
+    ],
     "legacy": "Firmenich heritage site at 150 Firmenich Way, Newark NJ. ~100 employees. North American production hub for dsm-firmenich flavour and fragrance divisions.",
     "certifications": [
       "ISO 9001",
@@ -12749,9 +12884,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Pilot scale only — not commercial production",
     "clients": [],
-    "products": [],
+    "products": [
+      "Pilot fermentation for taste, flavor and functional ingredients",
+      "Customer co-creation and scale-up"
+    ],
     "legacy": "Opened March 2024. Co-creation model: customers develop and scale innovations with dsm-firmenich scientists on-site. Part of Plainsboro North America innovation campus.",
     "certifications": [
       "ISO 9001",
@@ -12783,9 +12921,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr premix blends",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin and mineral premixes (Quali-Blends™)",
+      "Custom nutritional blends for food fortification",
+      "Dietary supplement premixes"
+    ],
     "legacy": "Established 1995. $10M modernisation upgrade 2024–2025. Nutritional premix hub for dsm-firmenich North America Health, Nutrition & Care division.",
     "certifications": [
       "ISO 9001",
@@ -12820,9 +12962,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Thousands of MT/yr pet nutrition premixes",
     "clients": [],
-    "products": [],
+    "products": [
+      "Custom vitamin, mineral and amino acid premixes for pet food",
+      "Micro-dosed specialty ingredient blends"
+    ],
     "legacy": "Opened October 2025. 100% automated micro-ingredient addition. Fully traceable. dsm-firmenich's dedicated NextGen pet nutrition manufacturing facility.",
     "certifications": [
       "ISO 9001",
@@ -12857,9 +13002,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Food cultures: hundreds of MT/yr freeze-dried\nProbiotics: tens of MT/yr concentrated biomass",
     "clients": [],
-    "products": [],
+    "products": [
+      "Food cultures for dairy (yogurt, cheese, sour cream, kefir)",
+      "Meat and vegetable fermentation cultures",
+      "Probiotics (Lactobacillus strains, FloraFIT® range)"
+    ],
     "legacy": "100-year anniversary 2024. Carbon-neutral manufacturing. Currently expanding capacity. World's largest emulsifier site.",
     "certifications": [
       "ISO 9001",
@@ -12894,9 +13043,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Protein hydrolysates: several thousand MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Functional protein hydrolysates (AMIZATE®, COLLATE™)",
+      "Yeast-derived flavor proteins",
+      "Specialty dairy protein fractions"
+    ],
     "legacy": "Part of IFF's 4-site Danish manufacturing network. Supplies hydrocolloids to global food industry.",
     "certifications": [
       "ISO 9001",
@@ -12930,9 +13083,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Pilot scale — R&D and innovation campus",
     "clients": [],
-    "products": [],
+    "products": [
+      "Culture innovation and enzyme R&D",
+      "Pilot production for new fermentation products"
+    ],
     "legacy": "400+ R&D staff. IFF's largest European innovation centre. Customer co-creation for fermented food ingredients.",
     "certifications": [
       "ISO 9001",
@@ -12964,9 +13120,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Food and feed enzymes: thousands of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baking enzymes (Grindamyl® xylanase, amylase, lipase)",
+      "Food-processing enzymes (lactase, pectinase, glucose oxidase)",
+      "Animal feed enzymes"
+    ],
     "legacy": "Operating since 1974 (Finn Sugar → Cultor → Genencor → DuPont → IFF heritage). Key enzyme site for IFF N&B animal nutrition.",
     "certifications": [
       "ISO 9001",
@@ -13000,9 +13160,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Industrial enzymes: tens of thousands MT/yr (major Genencor heritage site)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Industrial biofuel enzymes (Accellerase® cellulase complex, Stellar™ glucoamylase)",
+      "Grain processing enzymes (amylase, glucoamylase)",
+      "Biobased chemical enzymes"
+    ],
     "legacy": "$70M / 47,000 sq ft expansion underway, operational late 2026. 200+ employees. Genencor → DuPont → IFF heritage.",
     "certifications": [
       "ISO 9001",
@@ -13035,9 +13199,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Probiotics and cultures: hundreds of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Probiotics (Lactobacillus acidophilus, Bifidobacterium strains)",
+      "Dairy starter cultures for European food industry"
+    ],
     "legacy": "World's first industrial-scale Akkermansia probiotic fermentation (2023). Expanding plant-based culture capacity.",
     "certifications": [
       "ISO 9001",
@@ -13070,9 +13237,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Pilot scale — enzyme R&D",
     "clients": [],
-    "products": [],
+    "products": [
+      "Enzyme discovery, R&D and pilot production (Genencor heritage)",
+      "Protein engineering and directed evolution"
+    ],
     "legacy": "Genencor heritage (1982). Historic centre of industrial enzyme innovation. Founded as Genentech/Corning JV, then Genencor → DuPont → IFF.",
     "certifications": [
       "ISO 9001"
@@ -13104,9 +13274,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr enzymes",
     "clients": [],
-    "products": [],
+    "products": [
+      "Food and industrial enzymes for Latin American markets",
+      "Regional enzyme production satellite"
+    ],
     "legacy": "Upgrade to full fermentation announced March 2026. First full-cycle enzyme production in Latin America for IFF.",
     "certifications": [
       "ISO 9001",
@@ -13138,9 +13311,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~250,000 MT/yr DL-methionine",
     "clients": [],
-    "products": [],
+    "products": [
+      "DL-Methionine (MetAMINO®, feed grade)"
+    ],
     "legacy": "$176.5M expansion 2022. Methyl mercaptan backward integration completed July 2026. Produces MetAMINO® and Mepron®. One of 3 global Evonik methionine sites.",
     "certifications": [
       "ISO 9001",
@@ -13173,9 +13348,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~300,000 MT/yr DL-methionine (world's largest single methionine plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "DL-Methionine (MetAMINO®, feed grade)"
+    ],
     "legacy": "50-year history (1974–2024). Part of Antwerp-Wesseling methionine Verbund. Modernisation upgrade 2025.",
     "certifications": [
       "ISO 9001",
@@ -13208,9 +13385,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Methionine intermediates: hundreds of thousands MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "3-Methylthiopropionaldehyde (MMP, methionine precursor)",
+      "Methionine synthetic intermediates"
+    ],
     "legacy": "Part of the Antwerp-Wesseling methionine Verbund. Produces intermediates for MetAMINO® supply chain.",
     "certifications": [
       "ISO 9001",
@@ -13242,9 +13422,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~200,000 MT/yr DL-methionine",
     "clients": [],
-    "products": [],
+    "products": [
+      "DL-Methionine (MetAMINO®, feed grade)"
+    ],
     "legacy": "~340,000 t/yr capacity post-2024 expansion. >40% global methionine market share. World's largest single methionine complex. Located on Jurong Island.",
     "certifications": [
       "ISO 9001",
@@ -13279,9 +13461,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "L-Threonine: ~100,000 MT/yr\nL-Tryptophan: ~15,000–20,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Threonine (BioAMINO®, fermentation-derived, feed grade)",
+      "L-Tryptophan (BioAMINO®, fermentation-derived)"
+    ],
     "legacy": "Founded 1992. €80M expansion 2026–2028 adding downstream fermentation capacity. ~50 new jobs. Key Central European fermentation site.",
     "certifications": [
       "ISO 9001",
@@ -13315,9 +13500,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Pharmaceutical amino acids: ~500–1,500 MT/yr combined (GMP-compliant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Pharmaceutical-grade L-cysteine (REXIM® Cys)",
+      "L-Methionine (pharma grade)",
+      "N-Acetyl-L-cysteine (NAC)",
+      "Glycine (pharma grade)"
+    ],
     "legacy": "One of two REXIM keto/pharma amino acid sites post-Hanau closure (2025). Produces specialty fermentation amino acids for nutraceutical and pharmaceutical markets.",
     "certifications": [
       "ISO 9001",
@@ -13351,9 +13541,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Specialty pharma amino acids: hundreds to ~1,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Pharmaceutical and specialty amino acids for Asian markets",
+      "L-Cysteine, L-methionine derivatives (REXIM® China)"
+    ],
     "legacy": "Part of Evonik REXIM two-site network (Ham FR + Wuming CN) post-Hanau closure. Wuming District, Nanning, Guangxi Province.",
     "certifications": [
       "ISO 9001",
@@ -13386,9 +13579,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Enzymes: several hundred MT/yr\nProbiotics: tens of MT/yr concentrated",
     "clients": [],
-    "products": [],
+    "products": [
+      "Food enzymes (lipase, protease, amylase)",
+      "Probiotics (Lactobacillus, Bifidobacterium strains)",
+      "Fermented dairy and beverage ingredients"
+    ],
     "legacy": "World's largest lactase producer. >2 million tonnes milk processed/yr. 200+ customers, 80+ countries. Capacity expansion April 2026.",
     "certifications": [
       "ISO 9001",
@@ -13421,9 +13618,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Pilot to commercial-scale biocatalysts; volumes by project",
     "clients": [],
-    "products": [],
+    "products": [
+      "Custom industrial biocatalysts (enzyme engineering, C-LEcta heritage)",
+      "Enzyme discovery and directed evolution"
+    ],
     "legacy": "C-LEcta acquisition 2022 (€137M). Opened September 2025. 100+ scientists, 34 PhDs. ACRYLERASE® and BIOBAKE® product lines. Kerry's global enzyme innovation hub.",
     "certifications": [
       "ISO 9001"
@@ -13455,9 +13655,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Yeast extracts: several thousand MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Yeast extracts for savory flavors",
+      "Fermentation-derived umami and taste ingredients",
+      "Specialty flavor compounds"
+    ],
     "legacy": "Produces Yeastex® yeast extracts and fermentation-derived savoury ingredients. Kerry Taste & Nutrition Americas hub.",
     "certifications": [
       "ISO 9001",
@@ -13491,9 +13695,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Dairy cultures: hundreds of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Dairy starter cultures (cheese, yogurt, cultured butter)",
+      "Propionibacterium cultures (Swiss-type cheese eyes)",
+      "Specialty dairy cultures"
+    ],
     "legacy": "Dairy cultures and fermented dairy ingredients for North American food manufacturers.",
     "certifications": [
       "ISO 9001",
@@ -13527,9 +13735,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Probiotics: tens of MT/yr (concentrated, clinical-grade)",
     "clients": [],
-    "products": [],
+    "products": [
+      "L. plantarum HEAL9® (respiratory health probiotic)",
+      "Clinically validated probiotic strains",
+      "Encapsulated probiotic ingredients"
+    ],
     "legacy": "Acquired by Kerry 2021 (€127M). ~150 employees. Hereditum® proprietary probiotic strains. Specialty in women's health and infant nutrition probiotics.",
     "certifications": [
       "ISO 9001",
@@ -13563,9 +13775,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Taste ingredients: thousands of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Taste and texture ingredients for Asian food markets",
+      "Fermentation-derived savory and umami flavors"
+    ],
     "legacy": "€20M facility. ~120 km from Bangalore. Serves South and West Asia taste and nutrition market.",
     "certifications": [
       "ISO 9001",
@@ -13599,9 +13814,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Thousands of MT/yr food taste ingredients",
     "clients": [],
-    "products": [],
+    "products": [
+      "Fermentation-derived taste and texture ingredients",
+      "Savory and umami ingredients for SE Asian food industry"
+    ],
     "legacy": "50,000 m² facility. R&D pilot plant on-site. ASEAN market hub for Kerry taste and nutrition.",
     "certifications": [
       "ISO 9001",
@@ -13634,9 +13852,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr savory ingredients",
     "clients": [],
-    "products": [],
+    "products": [
+      "Savory and umami fermentation flavors",
+      "Fermented plant-based flavor extracts"
+    ],
     "legacy": "Jining Nature Group acquisition. Produces fermentation-derived savoury flavours for Chinese food industry.",
     "certifications": [
       "ISO 9001",
@@ -13670,9 +13891,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bio-based 1,3-PDO: ~65,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Bio-based 1,3-propanediol (PDO) from corn glucose",
+      "PDO for polytrimethylene terephthalate (PTT) fibers and polyurethanes"
+    ],
     "legacy": "50/50 JV Cargill + HELM AG. Opened July 2025. $300M investment. 66,000 MT/yr QIRA™ bio-BDO. Uses Genomatica technology. World's largest bio-BDO plant.",
     "certifications": [
       "ISO 9001",
@@ -13705,9 +13929,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~75,000 MT/yr Ingeo™ PLA",
     "clients": [],
-    "products": [],
+    "products": [
+      "Ingeo™ polylactic acid (PLA) biopolymer",
+      "Ingeo™ PLA grades: fiber, film, rigid packaging, foam, 3D printing"
+    ],
     "legacy": "50/50 JV: Cargill + PTT Global Chemical. ~150,000 MT/yr Ingeo™ PLA. Operational since 2001. Co-located with Novonesis Blair and Veramaris Blair.",
     "certifications": [
       "ISO 9001",
@@ -13741,9 +13968,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~100M gal/yr (~380,000 MT/yr) bioethanol",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "Distillers dried grains with solubles (DDGS)",
+      "Corn oil (distillers corn oil, DCO)"
+    ],
     "legacy": "115 million gal/yr fuel ethanol. Acquired from Tate & Lyle 2011. Integrated corn wet mill.",
     "certifications": [
       "ISO 9001",
@@ -13776,9 +14007,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~20,000 MT/yr ABUNDA® mycoprotein (scaling to 50,000 MT/yr)",
     "clients": [],
-    "products": [],
+    "products": [
+      "ABUNDA® mycoprotein (Fusarium venenatum fermentation)",
+      "Mycoprotein ingredient for meat alternatives and food applications"
+    ],
     "legacy": "ENOUGH-owned, Cargill Series C investor + offtake partner (expanded 2024). 15,000 m² facility. ABUNDA™ mycoprotein. Fungal fermentation for alternative protein.",
     "certifications": [
       "ISO 9001",
@@ -13811,9 +14045,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Wheat starch + derivatives: ~150,000–200,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Wheat starch (native, modified)",
+      "Wheat glucose syrup and dextrose",
+      "Vital wheat gluten",
+      "Maltodextrin and cyclodextrin"
+    ],
     "legacy": "One of Europe's largest wheat starch facilities. €60M ethanol plant added ~2013. Supplies Central European food and bioenergy markets.",
     "certifications": [
       "ISO 9001",
@@ -13847,9 +14086,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Wheat starch + derivatives: ~100,000–150,000 MT/yr\nBioethanol: ~50–100M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Wheat starch (native, modified)",
+      "Wheat glucose and dextrose",
+      "Vital wheat gluten",
+      "Bioethanol (from wheat processing)"
+    ],
     "legacy": "~$200M investment converting from corn to wheat processing. Advanced biofuel and specialty starch production.",
     "certifications": [
       "ISO 9001",
@@ -13885,9 +14129,13 @@
       "Clinical",
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Precision fermentation hub; exact volumes not publicly disclosed",
     "clients": [],
-    "products": [],
+    "products": [
+      "Precision fermentation specialty ingredients (pilot and commercial scale)",
+      "Lactic acid (corn-based fermentation)",
+      "Biobased chemicals"
+    ],
     "legacy": "$55.5M conversion of 463,503 sq ft idle fermentation space. First product: EVERY Company OvoPro™ egg white protein. ADM's commercial precision fermentation CMO platform.",
     "certifications": [
       "ISO 9001",
@@ -13921,9 +14169,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "HFCS: ~500,000 MT/yr (est.)\nDextrose: ~200,000 MT/yr (est.)\nBioethanol: ~300M gal/yr (est.)",
     "clients": [],
-    "products": [],
+    "products": [
+      "High-fructose corn syrup (HFCS-55, HFCS-42)",
+      "Dextrose (glucose, food and industrial grade)",
+      "Corn starch and starch derivatives",
+      "Bioethanol",
+      "Corn oil and corn gluten meal/feed"
+    ],
     "legacy": "240M gal/yr wet mill + 300M gal/yr dry mill ethanol. One of ADM's largest corn processing complexes.",
     "certifications": [
       "ISO 9001",
@@ -13955,9 +14209,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~100M gal/yr (~380,000 MT/yr) bioethanol\nCCS: ~500,000 MT/yr CO₂ captured and stored",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "CO₂ (captured via geological CCS)"
+    ],
     "legacy": "420M gal/yr bioethanol. World's largest bioethanol CCS (Tallgrass, opened Nov 2025): 800,000+ t CO₂/yr captured. Carbon-negative fermentation landmark.",
     "certifications": [
       "ISO 9001",
@@ -13989,9 +14246,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~100M gal/yr bioethanol",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil"
+    ],
     "legacy": "~52.7M gal/yr fuel ethanol. Part of ADM Midwest bioethanol network.",
     "certifications": [
       "ISO 9001",
@@ -14024,9 +14285,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Natural flavors and extracts: thousands of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Natural flavors and flavor extracts (fruit, botanical, vegetable)",
+      "Natural colorants and juice concentrates",
+      "Botanical extracts and functional food ingredients"
+    ],
     "legacy": "~1,400 employees. WILD Flavors acquired by ADM 2014. ADM's largest flavour production site globally. Near Heidelberg, Baden-Württemberg.",
     "certifications": [
       "ISO 9001",
@@ -14061,9 +14326,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Thousands of MT/yr natural flavor products",
     "clients": [],
-    "products": [],
+    "products": [
+      "Natural flavors, flavor compounds and blends",
+      "Food ingredient solutions"
+    ],
     "legacy": "$15M investment 2025 + $26M expansion announced 2026. ADM North America flavour and colour innovation hub. WILD Flavors heritage.",
     "certifications": [
       "ISO 9001",
@@ -14098,9 +14366,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~30,000–50,000 MT/yr (wet weight)\nSpecialty yeast: hundreds of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (Saccharomyces cerevisiae): fresh cream, compressed, active dry, instant dry",
+      "Wine yeast (Bourgovin RC 212®, Lalvin™ range)",
+      "Distilling yeast (SafSpirit American Whiskey™)",
+      "Selenium-enriched yeast (Selplex® equivalent)"
+    ],
     "legacy": "100-year anniversary 2023. Global HQ. Baker's yeast, wine yeast, distilling yeast, selenium yeast.",
     "certifications": [
       "ISO 9001",
@@ -14135,9 +14408,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~20,000–30,000 MT/yr (wet weight)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh compressed, active dry yeast)",
+      "Cream yeast"
+    ],
     "legacy": "Major North American baker's yeast hub.",
     "certifications": [
       "ISO 9001",
@@ -14170,9 +14446,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~10,000–20,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh compressed)",
+      "Cream yeast for food manufacturers"
+    ],
     "legacy": "Built 2003. US South baker's yeast production.",
     "certifications": [
       "ISO 9001",
@@ -14204,9 +14483,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~5,000–10,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh compressed)"
+    ],
     "legacy": "US South baker's yeast production.",
     "certifications": [
       "ISO 9001",
@@ -14238,9 +14519,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bacteria cultures and probiotics: hundreds of MT/yr freeze-dried",
     "clients": [],
-    "products": [],
+    "products": [
+      "Lactic acid bacteria (LAB) cultures for wine, dairy and feed",
+      "Probiotic bacteria (Lactobacillus, Bifidobacterium, Enterococcus strains)",
+      "Freeze-dried bacterial culture concentrates"
+    ],
     "legacy": "Key North American bacteria/probiotic fermentation site. Freeze-dried cultures.",
     "certifications": [
       "ISO 9001",
@@ -14273,9 +14558,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bacteria cultures: hundreds of MT/yr freeze-dried",
     "clients": [],
-    "products": [],
+    "products": [
+      "LAB bacteria cultures for oenology (wine malolactic fermentation)",
+      "Dairy and feed bacteria cultures",
+      "Freeze-dried culture concentrates (industrial scale)"
+    ],
     "legacy": "Key European bacteria/oenology culture production site in Cantal, Auvergne.",
     "certifications": [
       "ISO 9001",
@@ -14307,9 +14596,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~5,000–15,000 MT/yr (organic cream yeast specialist)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Organic-certified cream yeast",
+      "Specialty baker's yeast (organic range)"
+    ],
     "legacy": "Organic cream yeast specialist. Vienna production hub.",
     "certifications": [
       "ISO 9001",
@@ -14342,9 +14634,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~10,000–20,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (compressed, active dry)",
+      "Specialty yeast (European market)"
+    ],
     "legacy": "Founded 1862. Oldest Bavarian yeast factory. Part of Lallemand European network.",
     "certifications": [
       "ISO 9001",
@@ -14376,9 +14671,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bacteria cultures and probiotics: hundreds of MT/yr freeze-dried",
     "clients": [],
-    "products": [],
+    "products": [
+      "Lactic acid bacteria cultures (LAB) for food, feed and agriculture",
+      "Probiotic bacteria for food and supplements",
+      "Freeze-dried culture concentrates"
+    ],
     "legacy": "Key Eastern European bacteria culture hub.",
     "certifications": [
       "ISO 9001",
@@ -14410,9 +14709,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~50,000–80,000 MT/yr baker's yeast (wet weight; Europe's largest single yeast plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Compressed baker's yeast",
+      "Active dry yeast (ADY)",
+      "Instant dry yeast (IDY)",
+      "Cream yeast"
+    ],
     "legacy": "Largest baker's yeast plant in Europe. Major energy efficiency upgrade 2022.",
     "certifications": [
       "ISO 9001",
@@ -14447,9 +14751,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~15,000–25,000 MT/yr baker's yeast",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (cream yeast, compressed, ADY, IDY)",
+      "Specialty yeast blends"
+    ],
     "legacy": "44,000 sq ft. Flagship US baker's yeast and specialty blending site.",
     "certifications": [
       "ISO 9001",
@@ -14482,9 +14789,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~5,000–10,000 MT/yr baker's yeast",
     "clients": [],
-    "products": [],
+    "products": [
+      "Fresh baker's yeast",
+      "Active dry yeast"
+    ],
     "legacy": "US West Coast baker's yeast hub.",
     "certifications": [
       "ISO 9001",
@@ -14516,9 +14826,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~5,000–10,000 MT/yr baker's yeast",
     "clients": [],
-    "products": [],
+    "products": [
+      "Fresh baker's yeast"
+    ],
     "legacy": "US South baker's yeast production hub.",
     "certifications": [
       "ISO 9001",
@@ -14550,9 +14862,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~10,000–20,000 MT/yr baker's yeast",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (compressed, ADY, IDY)",
+      "Cream yeast"
+    ],
     "legacy": "Canadian production hub.",
     "certifications": [
       "ISO 9001",
@@ -14585,9 +14900,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "~10,000–20,000 MT/yr baker's yeast",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh compressed, ADY)",
+      "Cream yeast for Latin American markets"
+    ],
     "legacy": "Latin American production hub.",
     "certifications": [
       "ISO 9001",
@@ -14622,9 +14940,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Yeast extracts: ~20,000–40,000 MT/yr (dry weight; including +50% expansion)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Autolyzed yeast extracts (high-nucleotide, low-salt, organic)",
+      "Yeast cell walls (beta-1,3/1,6-glucan, mannan)",
+      "Specialty flavor yeast extracts (umami, roast, dairy notes)",
+      "Fermentation media nutrients (yeast nitrogen base, autolysates)"
+    ],
     "legacy": "Founded 1836. ABF Ingredients group. +50% capacity expansion (new fermentation plant + spray drying tower).",
     "certifications": [
       "ISO 9001",
@@ -14660,9 +14983,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Torula yeast extracts: ~3,000–8,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Torula yeast extracts (Cyberlindnera jadinii)",
+      "Specialty yeast extracts with distinctive flavor profiles",
+      "Fermentation media nutrients"
+    ],
     "legacy": "Specialty torula yeast extracts. Distinctive flavour profiles for food and fermentation media.",
     "certifications": [
       "ISO 9001",
@@ -14695,9 +15022,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Yeast extracts: ~5,000–10,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Spray-dried yeast extracts (autolyzed, hydrolyzed)",
+      "Natural flavor yeast extracts"
+    ],
     "legacy": "Spray-dried yeast extracts and natural flavours.",
     "certifications": [
       "ISO 9001",
@@ -14729,9 +15059,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: >100,000 MT/yr (wet weight; world's largest single baker's yeast plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh compressed, active dry, instant dry)",
+      "Specialty yeast (oenological, distilling, nutritional)",
+      "Bread improvement ingredients (Ibis range)",
+      "Fermentation-derived health ingredients"
+    ],
     "legacy": "World's largest single baker's yeast plant. Lesaffre group HQ. Founded 1853. Global network of 80 production sites in 55 countries.",
     "certifications": [
       "ISO 9001",
@@ -14766,9 +15101,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~20,000–40,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (compressed, ADY, IDY) — Algist Bruggeman brand",
+      "Craft and specialty yeast"
+    ],
     "legacy": "Algist Bruggeman brand. New specialty/craft yeast investment August 2025.",
     "certifications": [
       "ISO 9001",
@@ -14802,9 +15140,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Yeast extracts: ~10,000–20,000 MT/yr (post-2024 expansion)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Yeast extracts (autolyzed): nutritional, flavoring and fermentation media grades",
+      "High-nucleotide yeast extracts (Biospringer™ range)",
+      "Yeast-derived ingredients for food and beverage"
+    ],
     "legacy": "Biospringer division of Lesaffre. Capacity expansion 2024–2025.",
     "certifications": [
       "ISO 9001",
@@ -14839,9 +15181,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~10,000–20,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (compressed, ADY) for Brazilian and Latin American market"
+    ],
     "legacy": "New plant opened 2024. Near Campinas, São Paulo state. Brazilian and Latin American market supply.",
     "certifications": [
       "ISO 9001",
@@ -14875,9 +15219,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Baker's yeast: ~5,000–15,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baker's yeast (fresh, ADY) for Indonesian and SE Asian market"
+    ],
     "legacy": "SE Asia expansion. Malang Regency, East Java.",
     "certifications": [
       "ISO 9001",
@@ -14911,9 +15257,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Industrial enzymes: ~10,000–20,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Baking enzymes (Veron® xylanase, amylase, lipase — world-leading baking enzyme brand)",
+      "Animal feed enzymes (RONOZYME® equivalent: phytase, xylanase, protease)",
+      "Textile processing enzymes (cellulase, laccase)",
+      "Brewing and distilling enzymes"
+    ],
     "legacy": "Main global enzyme production. ABF/Schwabe group. Pilot investment 2021 for faster scale-up. Multi-year ABF investment programme ongoing.",
     "certifications": [
       "ISO 9001",
@@ -14946,9 +15297,12 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Pilot scale — R&D and application development",
     "clients": [],
-    "products": [],
+    "products": [
+      "Enzyme R&D and application development (baking, feed, textile, industrial)",
+      "Pilot enzyme production"
+    ],
     "legacy": "AB Enzymes European HQ. Application development co-located with pilot production.",
     "certifications": [
       "ISO 9001"
@@ -14980,9 +15334,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Yeast extracts: ~10,000–15,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Autolyzed yeast extracts (Sensient Yeast™)",
+      "High-glutamate yeast extracts for fermentation media",
+      "Natural flavor-active yeast extracts"
+    ],
     "legacy": "Operating since 1906. $18M expansion 2012. ~100 employees.",
     "certifications": [
       "ISO 9001",
@@ -15015,9 +15373,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Fermentation ingredients: thousands of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Fermentation-derived colors (carotenoids, riboflavin-based)",
+      "Yeast-based fermentation nutrients for dairy cultures",
+      "Natural color formulations"
+    ],
     "legacy": "Sensient global HQ. Launched dairy culture fermentation nutrients product line September 2026.",
     "certifications": [
       "ISO 9001",
@@ -15050,9 +15412,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Natural colors: ~50,000–100,000 MT/yr (liquid extracts and solutions; up to $250M expansion 2025)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Natural color extracts (anthocyanins, carotenoids, beetroot, paprika)",
+      "Fermentation-derived natural colors",
+      "Color formulations for food and beverage"
+    ],
     "legacy": "Sensient's largest plant. Up to $250M expansion announced 2025.",
     "certifications": [
       "ISO 9001",
@@ -15086,9 +15452,17 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Specialty amino acids: ~10,000–20,000 MT/yr combined\nCognizin® citicoline: hundreds of MT/yr\nSetria® L-glutathione: tens of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Glutamine",
+      "L-Arginine",
+      "L-Citrulline",
+      "L-Histidine",
+      "Cognizin® citicoline (CDP-choline)",
+      "Setria® L-Glutathione",
+      "5'-IMP and 5'-GMP nucleotides"
+    ],
     "legacy": "Birthplace of Japanese industrial amino acid fermentation. Kirin Group. Integrated Yamaguchi Center with Ube since 2008. Cognizin® and Setria® specialty brands.",
     "certifications": [
       "ISO 9001",
@@ -15121,9 +15495,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Feed amino acids: several thousand MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Feed-grade amino acids (L-lysine, L-threonine, branched-chain)",
+      "Fermentation specialty chemicals"
+    ],
     "legacy": "Integrated Yamaguchi Production Center with Hofu since 2008. Kirin Group.",
     "certifications": [
       "ISO 9001",
@@ -15156,9 +15533,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "HMOs total: ~300 MT/yr (first dedicated HMO plant in SE Asia, 2022)\nAmino acids: thousands of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "2'-Fucosyllactose (2'-FL, HMO)",
+      "3'-Sialyllactose (3'-SL, HMO)",
+      "6'-Sialyllactose (6'-SL, HMO)",
+      "L-Amino acids (site also produces amino acids)"
+    ],
     "legacy": "First dedicated HMO fermentation facility in SE Asia. Opened 2022. ~300 MT/yr HMO capacity. Kyowa Hakko Bio / Kirin Group.",
     "certifications": [
       "ISO 9001",
@@ -15192,9 +15574,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "L-Lysine: ~200,000–300,000 MT/yr\nL-Threonine: ~50,000–100,000 MT/yr\nL-Glutamic acid: ~100,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lysine HCl 98.5% (feed grade, corn fermentation)",
+      "L-Lysine 65% liquid solution",
+      "L-Glutamic acid",
+      "L-Threonine",
+      "Corn starch and glucose"
+    ],
     "legacy": "Primary hub for Global Bio-Chem corn amino acid operations. Dehui District, Changchun. Currently restructuring due to market pressure.",
     "certifications": [
       "ISO 9001",
@@ -15228,9 +15616,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "MSG: ~150,000–200,000 MT/yr\nL-Lysine: ~50,000 MT/yr\nγ-PGA: ~3,000–5,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "MSG (monosodium glutamate)",
+      "L-Lysine HCl",
+      "Polyglutamic acid (γ-PGA, cosmetic and agricultural grade)",
+      "Glucose syrup and starch derivatives",
+      "Modified starch and cassava products"
+    ],
     "legacy": "120-hectare flagship complex. Established 1991. Vedan's largest site. Produces MSG, lysine, PGA, glucose syrup, modified starch.",
     "certifications": [
       "ISO 9001",
@@ -15263,9 +15657,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "MSG: ~50,000–80,000 MT/yr (Chinese domestic market)",
     "clients": [],
-    "products": [],
+    "products": [
+      "MSG (monosodium glutamate)",
+      "Fermentation-derived seasonings"
+    ],
     "legacy": "Acquired 1995. Serves Chinese domestic MSG and seasoning market.",
     "certifications": [
       "ISO 9001",
@@ -15298,9 +15695,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "MSG: ~20,000–50,000 MT/yr (reduced scale vs. peak)",
     "clients": [],
-    "products": [],
+    "products": [
+      "MSG (monosodium glutamate) — founding site 1954"
+    ],
     "legacy": "Founding site (1954). At peak (1986) world's largest MSG output. Current scale reduced.",
     "certifications": [
       "ISO 9001",
@@ -15333,9 +15732,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Vitamin E: ~15,000–25,000 MT/yr (world top-3 producer)\nVitamin A: ~5,000–8,000 MT/yr\nVitamin D3: ~500–1,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin E (all-rac-α-tocopheryl acetate)",
+      "Vitamin A palmitate and acetate",
+      "Vitamin D3 (cholecalciferol)",
+      "Animal nutrition vitamin products"
+    ],
     "legacy": "Main Zhejiang NHU nutrition hub. Vitamins E, A, D3. Vityesun Animal Nutrition subsidiary.",
     "certifications": [
       "ISO 9001",
@@ -15369,9 +15773,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Taurine: ~10,000 MT/yr\nAstaxanthin: ~100–200 MT/yr\nLutein: hundreds of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Astaxanthin (fermentation and extraction)",
+      "Lutein",
+      "Taurine",
+      "Vitamin B6 (pyridoxine)",
+      "Specialty bioactive compounds"
+    ],
     "legacy": "Shaoxing City. Houses NHU Bio-Chem Co. and NHU Pharmaceutical Co. Lutein, astaxanthin, taurine.",
     "certifications": [
       "ISO 9001",
@@ -15405,9 +15815,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Flavour/fragrance chemicals: ~10,000–20,000 MT/yr combined\nNHU's largest production base",
     "clients": [],
-    "products": [],
+    "products": [
+      "Linalool (fragrance)",
+      "Geraniol (fragrance and flavor)",
+      "Vitamin E intermediates and derivatives",
+      "Flavour and fragrance specialty chemicals"
+    ],
     "legacy": "NHU's largest single production base. Weifang, Shandong. Flavour/fragrance + nutritional products.",
     "certifications": [
       "ISO 9001",
@@ -15441,9 +15856,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Vitamin C: ~30,000 MT/yr\nCalcium pantothenate: ~3,000–5,000 MT/yr\nCoQ10: ~100–200 MT/yr\nVitamin B12: ~50–100 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Coenzyme Q10 (CoQ10, by fermentation)",
+      "Vitamin C (ascorbic acid, two-step fermentation)",
+      "Vitamin B12 (cyanocobalamin)",
+      "Calcium pantothenate (Vitamin B5)",
+      "L-Serine"
+    ],
     "legacy": "NHU dedicated bio-fermentation centre. CoQ10, Vitamin C, B12, pantothenate. Corn feedstock from Heilongjiang.",
     "certifications": [
       "ISO 9001",
@@ -15477,9 +15898,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Vitamin C: ~80,000–100,000 MT/yr (world's largest single Vitamin C producer)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin C (L-ascorbic acid, two-step fermentation — NEPG-invented process)",
+      "Vitamin C derivatives (sodium ascorbate, calcium ascorbate, ascorbyl palmitate)",
+      "Vitamin B12 (cyanocobalamin)"
+    ],
     "legacy": "World's largest Vitamin C producer. Inventor of two-step Vitamin C fermentation process. 180,000 m² production zone, 30+ lines. Shenyang, Liaoning.",
     "certifications": [
       "ISO 9001",
@@ -15513,9 +15938,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Vitamin C: ~100,000 MT/yr (world's largest single Vitamin C production line)\nBiotin: ~50 MT/yr\nCalcium pantothenate: ~5,000–8,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Vitamin C (ascorbic acid) and derivatives (ascorbyl palmitate, calcium ascorbate)",
+      "Biotin (Vitamin B7/H)",
+      "Calcium pantothenate (Vitamin B5)",
+      "Folic acid (Vitamin B9)",
+      "Vitamin E (dl-α-tocopheryl acetate)"
+    ],
     "legacy": "World's largest Vitamin C production line. Biotin 50 t/yr. BBCA Group subsidiary. Bengbu, Anhui.",
     "certifications": [
       "ISO 9001",
@@ -15549,9 +15980,16 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "D-Calcium pantothenate: ~20,000–30,000 MT/yr (global #1–2)\nFolic acid: ~3,000–5,000 MT/yr\nVitamin A: ~3,000–5,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "D-Calcium pantothenate (Vitamin B5) — global top 1–2 capacity",
+      "Folic acid (Vitamin B9)",
+      "Vitamin A (retinyl acetate)",
+      "Vitamin D3 (cholecalciferol)",
+      "Vitamin B1 (thiamine HCl)",
+      "Vitamin B6 (pyridoxine HCl)"
+    ],
     "legacy": "Founded 1998. Global #1–2 D-calcium pantothenate capacity. Exports 70+ countries. Dongying, Shandong.",
     "certifications": [
       "ISO 9001",
@@ -15585,9 +16023,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "FloraGLO® lutein: ~500–1,500 MT/yr (est.)\nAntioxidants: thousands of MT/yr combined",
     "clients": [],
-    "products": [],
+    "products": [
+      "FloraGLO® lutein (marigold extraction, world's largest lutein brand)",
+      "OROGLO® zeaxanthin (marigold)",
+      "KEM GLO™ mixed carotenoids (poultry pigmentation)",
+      "Antioxidants for food and feed (ENDOX®, SHIELD®)",
+      "Rosemary extracts"
+    ],
     "legacy": "Global HQ. 70-acre campus. ~$1.4B revenue company. FloraGLO® lutein. $10M lutein expansion.",
     "certifications": [
       "ISO 9001",
@@ -15621,9 +16065,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "FORTIUM™ R: thousands of MT/yr (1,000+ acres proprietary rosemary)",
     "clients": [],
-    "products": [],
+    "products": [
+      "FORTIUM™ R rosemary extract (natural antioxidant for food, feed, cosmetics)",
+      "Natural tocopherol (Vitamin E) extracts",
+      "Carotenoid products for European market"
+    ],
     "legacy": "European manufacturing hub. FORTIUM™ R rosemary extract. 1,000+ acres proprietary rosemary. EU regulatory hub.",
     "certifications": [
       "ISO 9001",
@@ -15657,9 +16105,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Thousands of MT/yr specialty ingredients (APAC regional hub)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Specialty food and feed ingredients for APAC markets",
+      "Nutraceutical ingredients",
+      "Antioxidants and preservation solutions"
+    ],
     "legacy": "APAC regional HQ. $35M Kuriosity Centre under construction (groundbreaking July 2026).",
     "certifications": [
       "ISO 9001",
@@ -15692,9 +16144,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Several thousand MT/yr enzymes (acquired from CJ Bio/CJ Youtell Sept 2025)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Fermentation-derived enzymes for animal nutrition",
+      "Food processing enzymes"
+    ],
     "legacy": "Acquired from CJ Bio (CJ Youtell) September 2025. Sites in Shandong and Hunan. Fermentation enzyme production.",
     "certifications": [
       "ISO 9001",
@@ -15727,9 +16182,15 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Lactic acid: ~50,000–80,000 MT/yr (Gorinchem; Corbion global ~200,000 MT/yr total)",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lactic acid (food, pharmaceutical and industrial grade)",
+      "Sodium lactate and potassium lactate (Purasal®)",
+      "Calcium lactate",
+      "Lactic acid esters (LACTEM, DATEM, sodium stearoyl lactylate)",
+      "Biobased food preservative blends (Verdad®)"
+    ],
     "legacy": "Corbion global HQ. Purac heritage. World's leading lactic acid producer.",
     "certifications": [
       "ISO 9001",
@@ -15763,9 +16224,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Lactic acid: ~30,000–50,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lactic acid (food and bioplastic grade)",
+      "Lactate salts and esters for European food industry"
+    ],
     "legacy": "Purac Bioquímica brand. Near Barcelona.",
     "certifications": [
       "ISO 9001",
@@ -15799,9 +16263,11 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Lactic acid: ~20,000–40,000 MT/yr (sugarcane feedstock)",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lactic acid from sugarcane (food and industrial grade)"
+    ],
     "legacy": "Sugarcane-derived lactic acid. Campos dos Goytacazes, Rio de Janeiro state.",
     "certifications": [
       "ISO 9001",
@@ -15834,9 +16300,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Lactic acid: ~40,000–60,000 MT/yr (post-2022 40% expansion)",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lactic acid (food and bioplastic grade, for NatureWorks PLA feedstock)",
+      "Lactate salts"
+    ],
     "legacy": "40% capacity expansion ~2022. 100% renewable electricity. Co-located on Blair biocampus with NatureWorks (6025), Veramaris (5012).",
     "certifications": [
       "ISO 9001",
@@ -15870,9 +16339,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Lactic acid: ~80,000–100,000 MT/yr (new plant, started end 2024)",
     "clients": [],
-    "products": [],
+    "products": [
+      "L-Lactic acid (lowest-carbon, feedstock for TotalEnergies Corbion PLA plant)",
+      "Circular fermentation process using sugarcane or starch"
+    ],
     "legacy": "Started end 2024. Lowest-carbon lactic acid process. Feeds adjacent TotalEnergies Corbion PLA plant.",
     "certifications": [
       "ISO 9001",
@@ -15906,9 +16378,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Citric acid: ~200,000–250,000 MT/yr (world's largest single citric acid plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Citric acid (anhydrous and monohydrate, food/beverage/industrial grade)",
+      "Sodium citrate (trisodium citrate)",
+      "Calcium citrate",
+      "Potassium citrate"
+    ],
     "legacy": "World's largest citric acid plant. Operating since 1962. Pernhofen, Lower Austria.",
     "certifications": [
       "ISO 9001",
@@ -15942,9 +16419,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Pharma citric acid: ~5,000–10,000 MT/yr (sole pharma-grade site in network)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Pharmaceutical-grade citric acid (PhEur, USP, FDA-inspected)",
+      "Pharmaceutical sodium citrate"
+    ],
     "legacy": "GMP-compliant. FDA-inspected. Sole pharma-grade citric acid site in Jungbunzlauer network.",
     "certifications": [
       "ISO 9001",
@@ -15978,9 +16458,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Erythritol: ~20,000–30,000 MT/yr\nGluconate: ~30,000–50,000 MT/yr\nLactic acid: ~10,000–20,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "ERYLITE® erythritol (by Monilliella pollinis fermentation, non-GMO)",
+      "Gluconic acid and sodium gluconate",
+      "Lactic acid"
+    ],
     "legacy": "ERYLITE® erythritol (expanded capacity), gluconate, lactic acid — all by fermentation. Non-GMO. Marckolsheim, Alsace.",
     "certifications": [
       "ISO 9001",
@@ -16015,9 +16499,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Citric acid: ~100,000–150,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Citric acid (food/beverage grade, North American market)",
+      "Sodium citrate"
+    ],
     "legacy": "Operational since 2002. Includes corn wet milling. Multiple capacity expansions. Port Colborne, Ontario.",
     "certifications": [
       "ISO 9001",
@@ -16051,9 +16538,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "LUMINY® PLA: ~75,000 MT/yr (running above nameplate in 2025)\nLactide: ~100,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "LUMINY® PLA (polylactic acid) biopolymer — fiber, film, rigid packaging, foam grades",
+      "Lactide (PLA precursor intermediate)"
+    ],
     "legacy": "50/50 JV: TotalEnergies + Corbion. 75,000 MT/yr PLA + 100,000 t/yr lactide. Running above nameplate 2025. Co-located with Corbion Rayong (7051).",
     "certifications": [
       "ISO 9001",
@@ -16088,9 +16578,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Mater-Bi®: ~120,000 MT/yr\nOrigo-Bi: ~60,000 MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Mater-Bi® starch-biopolymer (compostable bags, cutlery, packaging)",
+      "Origo-Bi biopolyesters (PBAT-equivalent, compostable film)",
+      "Matrol-Bi biolubricants"
+    ],
     "legacy": "120,000 t/yr Mater-Bi® + 60,000 t/yr Origo-Bi. Regenerated former polymer site. World's leading starch biopolymer site.",
     "certifications": [
       "ISO 9001",
@@ -16124,9 +16618,11 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Pilot scale — R&D and process development",
     "clients": [],
-    "products": [],
+    "products": [
+      "Next-generation bioplastics R&D and pilot production"
+    ],
     "legacy": "Novamont global HQ + R&D pilot facilities. Novara, Piedmont.",
     "certifications": [
       "ISO 9001"
@@ -16158,9 +16654,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Azelaic acid: ~10,000–20,000 MT/yr\nBiolubricant ingredients: thousands of MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Matrilox® azelaic acid (C9 diacid, from Brassica carinata oil)",
+      "Sebacic acid (C10 diacid)",
+      "Biolubricant base ingredients"
+    ],
     "legacy": "Formerly Matrìca JV (Novamont + Versalis/ENI); absorbed Nov 2025. Porto Torres, Sardinia.",
     "certifications": [
       "ISO 9001",
@@ -16193,9 +16693,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bio-BDO: ~30,000 MT/yr (world's first commercial bio-BDO plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Bio-based 1,4-butanediol (bio-BDO, Genomatica fermentation technology)",
+      "Feedstock for PBAT, PBS bioplastics and spandex fibres"
+    ],
     "legacy": "World's first commercial bio-BDO by fermentation. Opened Sept 2016. €100M investment. 30,000 t/yr. Genomatica technology.",
     "certifications": [
       "ISO 9001",
@@ -16227,9 +16730,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bio-PE: ~275,000 MT/yr (HDPE + LLDPE, after $87M expansion 2023)",
     "clients": [],
-    "products": [],
+    "products": [
+      "I'm Green™ bio-based HDPE (high-density polyethylene, from sugarcane bioethanol)",
+      "I'm Green™ bio-based LLDPE (linear low-density polyethylene)",
+      "Bio-ethylene (intermediate)"
+    ],
     "legacy": "275,000 t/yr. $87M expansion 2023. Operational since 2010. ~2 t CO₂ captured/t product. World-leading bio-PE site.",
     "certifications": [
       "ISO 9001",
@@ -16263,9 +16770,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Nodax™ PHA: ~65 million lb/yr (~29,500 MT/yr)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Nodax™ PHA (polyhydroxyalkanoate, bacterial fermentation)",
+      "Biodegradable and compostable biopolymer for packaging, coatings, fibers"
+    ],
     "legacy": "Danimer filed Ch.11 March 2025; acquired by Teknor Apex. Operating. 65 Mlb/yr Nodax™ PHA.",
     "certifications": [
       "ISO 9001",
@@ -16298,9 +16808,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Squalane: ~2,000–5,000 MT/yr\nReb M: ~500–1,000 MT/yr (est.)\n3 × 200 m³ + 2 × 80 m³ fermenters",
     "clients": [],
-    "products": [],
+    "products": [
+      "Neossance® hemisqualane / squalane (cosmetic and pharma grade)",
+      "Beta-farnesene (biobased chemical feedstock)",
+      "Purecane™ Reb M sweetener (steviol glycoside, no-sugar)",
+      "Biossance® squalane (DTC personal care)"
+    ],
     "legacy": "Post-2023 bankruptcy B2B pivot. 3×200 m³ + 2×80 m³ fermenters. Squalane, farnesene, Reb M sweetener.",
     "certifications": [
       "ISO 9001",
@@ -16332,9 +16847,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: 98M → 193M gal/yr (expansion completing Q4 2027)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol (E10, E15, E85 grade)",
+      "DDGS (distillers dried grains with solubles)",
+      "Distillers corn oil (DCO)",
+      "CO₂ (food/beverage grade, from fermentation)"
+    ],
     "legacy": "98M → 193M gal/yr expansion by Q4 2027. POET: 35 plants, 3.1B gal/yr total, world's largest bioethanol network.",
     "certifications": [
       "ISO 9001",
@@ -16366,9 +16886,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60–100M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil"
+    ],
     "legacy": "POET Iowa cluster. Part of 35-plant, 3.1B gal/yr national network.",
     "certifications": [
       "ISO 9001",
@@ -16400,9 +16924,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60–100M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil"
+    ],
     "legacy": "POET Iowa cluster.",
     "certifications": [
       "ISO 9001",
@@ -16434,9 +16962,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60–100M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil"
+    ],
     "legacy": "POET Iowa cluster.",
     "certifications": [
       "ISO 9001",
@@ -16468,9 +17000,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60–100M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil"
+    ],
     "legacy": "POET Iowa cluster.",
     "certifications": [
       "ISO 9001",
@@ -16502,9 +17038,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~121M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil",
+      "CO₂ captured (CCS, geological storage)"
+    ],
     "legacy": "121M gal/yr. CCS active. Green Plains 9-plant network.",
     "certifications": [
       "ISO 9001",
@@ -16536,9 +17077,14 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~116M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "Distillers corn oil",
+      "CO₂ captured (CCS)"
+    ],
     "legacy": "116M gal/yr. CCS active.",
     "certifications": [
       "ISO 9001",
@@ -16570,9 +17116,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60–90M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS",
+      "CO₂ captured (CCS)"
+    ],
     "legacy": "CCS active. York, Nebraska.",
     "certifications": [
       "ISO 9001",
@@ -16604,9 +17154,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS"
+    ],
     "legacy": "60M gal/yr. 1 billionth gallon milestone October 2026.",
     "certifications": [
       "ISO 9001",
@@ -16638,9 +17191,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~60M gal/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "DDGS"
+    ],
     "legacy": "Part of Green Plains 9-plant Midwest network.",
     "certifications": [
       "ISO 9001",
@@ -16673,9 +17229,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "2G ethanol: ~82M liters/yr (world's first industrial 2G cellulosic ethanol plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "2G cellulosic ethanol (from sugarcane bagasse and straw)",
+      "1G conventional sugarcane ethanol",
+      "Sugarcane bioelectricity (bagasse co-generation)"
+    ],
     "legacy": "World's first industrial-scale 2G cellulosic ethanol plant. Raízen = 50/50 JV Shell/Cosan. Iogen technology.",
     "certifications": [
       "ISO 9001",
@@ -16709,9 +17269,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "2G ethanol: ~82M liters/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "2G cellulosic ethanol (from sugarcane bagasse)",
+      "1G sugarcane ethanol"
+    ],
     "legacy": "~82M litres/yr 2G ethanol. Raízen E2G network.",
     "certifications": [
       "ISO 9001",
@@ -16745,9 +17308,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "2G ethanol: ~82M liters/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "2G cellulosic ethanol (from sugarcane bagasse)",
+      "1G sugarcane ethanol"
+    ],
     "legacy": "~82M litres/yr 2G ethanol. Barra Bonita, SP.",
     "certifications": [
       "ISO 9001",
@@ -16780,9 +17346,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "2G ethanol: ~40–82M liters/yr (est.)",
     "clients": [],
-    "products": [],
+    "products": [
+      "2G cellulosic ethanol (from sugarcane bagasse)",
+      "1G sugarcane ethanol"
+    ],
     "legacy": "Raízen E2G network expansion. Valparaíso, SP.",
     "certifications": [
       "ISO 9001",
@@ -16815,9 +17384,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "2G ethanol: ~40–82M liters/yr (est.)\nRaízen total E2G target: 440M liters/yr by 2025/26",
     "clients": [],
-    "products": [],
+    "products": [
+      "2G cellulosic ethanol (from sugarcane bagasse)",
+      "1G sugarcane ethanol"
+    ],
     "legacy": "440M litres/yr total E2G network target by 2025/26. Morro Agudo, SP.",
     "certifications": [
       "ISO 9001",
@@ -16850,9 +17422,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~80–100M liters/yr\nBiomethane: ~50–80 million m³/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Grain bioethanol (wheat/rye-based)",
+      "Biomethane (biogas from distillation stillage, upgraded to grid quality)",
+      "DDGS feed co-product"
+    ],
     "legacy": "10+ years operation. Grain bioethanol + biomethane from stillage. Schwedt/Oder, Brandenburg.",
     "certifications": [
       "ISO 9001",
@@ -16885,9 +17461,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~80–100M liters/yr\nBiomethane: ~50–80 million m³/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Grain bioethanol",
+      "Biomethane (from distillation stillage)",
+      "DDGS"
+    ],
     "legacy": "Zörbig, Saxony-Anhalt. Integrated bioethanol + biomethane biorefinery.",
     "certifications": [
       "ISO 9001",
@@ -16920,9 +17500,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Biomethane: ~30–50 million m³/yr (world's first stand-alone straw-to-biomethane plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Biomethane (from agricultural straw, anaerobic fermentation)",
+      "No ethanol — straw-only feedstock"
+    ],
     "legacy": "World's first stand-alone straw-to-biomethane plant. Pinnow, Brandenburg.",
     "certifications": [
       "ISO 9001",
@@ -16954,9 +17537,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~85M gal/yr (est.)\nBiomethane: Phase II operational from ~2025",
     "clients": [],
-    "products": [],
+    "products": [
+      "Corn bioethanol",
+      "Biomethane (from corn stover, Phase II — first in North America)",
+      "DDGS"
+    ],
     "legacy": "First industrial bioethanol + biomethane co-production in North America. Phase II August 2024. Nevada, Story County, Iowa.",
     "certifications": [
       "ISO 9001",
@@ -16989,9 +17576,13 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Bioethanol: ~250,000 MT/yr (~66M gal/yr est.)\nBiomethane: ~850,000 MWh/yr (from 2026)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Bioethanol (corn-based)",
+      "Biomethane (from 2026)",
+      "DDGS"
+    ],
     "legacy": "Acquired 2023. 250,000 t/yr ethanol + 850,000 MWh/yr biomethane from 2026.",
     "certifications": [
       "ISO 9001",
@@ -17025,9 +17616,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Mycoprotein: ~50,000–80,000 MT/yr (wet weight; world's largest mycoprotein plant)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Quorn mycoprotein (Fusarium venenatum, continuous submerged fermentation)",
+      "Heat-treated mycoprotein ingredient (40% protein, 25% dietary fibre DWB)"
+    ],
     "legacy": "World's largest mycoprotein plant. £150M expansion. Since 1985. Monde Nissin ownership. Continuous fermentation.",
     "certifications": [
       "ISO 9001",
@@ -17060,9 +17654,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Quorn food products: ~50,000+ MT/yr finished products",
     "clients": [],
-    "products": [],
+    "products": [
+      "Quorn food products (formed mycoprotein pieces, mince, fillets)",
+      "Consumer food production from mycoprotein ingredient"
+    ],
     "legacy": "Stokesley, North Yorkshire. Quorn product manufacturing.",
     "certifications": [
       "ISO 9001",
@@ -17094,9 +17691,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Quorn food products: tens of thousands MT/yr",
     "clients": [],
-    "products": [],
+    "products": [
+      "Quorn food products (consumer ready meals, formed pieces)",
+      "Mycoprotein food product manufacturing"
+    ],
     "legacy": "Methwold, Norfolk. Quorn product manufacturing.",
     "certifications": [
       "ISO 9001",
@@ -17129,9 +17729,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "ProFerm™: ~2,500 MT/yr (initial capacity; first deliveries Q4 2026)",
     "clients": [],
-    "products": [],
+    "products": [
+      "ProFerm™ beta-lactoglobulin (animal-free precision fermentation whey protein)",
+      "Whey protein ingredient for food and beverage applications"
+    ],
     "legacy": "Zydus JV. Mechanical completion Sept 2026. ~2,500 t/yr ProFerm™ beta-lactoglobulin. First commercial deliveries Q4 2026.",
     "certifications": [
       "ISO 9001",
@@ -17165,9 +17768,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "Solein®: ~160 MT/yr (scaling to ~230 MT/yr in 2026)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Solein® single-cell protein (autotrophic gas fermentation: CO₂ + H₂ → biomass)",
+      "65% protein, contains all essential amino acids, complete amino acid profile"
+    ],
     "legacy": "World's first commercial CO₂+H₂ gas fermentation protein. Operational April 2024. 160→230 t/yr. No agricultural land needed.",
     "certifications": [
       "ISO 9001",
@@ -17199,9 +17805,11 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "",
+    "capacity": "Target: ~9,000 MT/yr Solein® (under development; FID 2026)",
     "clients": [],
-    "products": [],
+    "products": [
+      "Solein® single-cell protein (Factory 02 — 40× scale-up of Factory 01)"
+    ],
     "legacy": "40× scale-up of Factory 01. FID 2026. €77.8M funded. Under development/construction.",
     "certifications": [
       "ISO 9001"
@@ -17233,9 +17841,12 @@
     "scale": [
       "Commercial"
     ],
-    "capacity": "",
+    "capacity": "FeedKind® SCP: ~20,000 MT/yr (world's largest gas fermenters: 2 × 10,000-tonne units)",
     "clients": [],
-    "products": [],
+    "products": [
+      "FeedKind® single-cell protein (methanotrophic gas fermentation: CH₄ → SCP)",
+      "SCP ingredient to replace fishmeal in aquaculture, poultry and swine feed"
+    ],
     "legacy": "50/50 JV Calysta + Adisseo. Operational Oct 2022. 20,000 t/yr. World's largest gas fermenters (2×10,000 t). FeedKind® replaces fishmeal.",
     "certifications": [
       "ISO 9001",
