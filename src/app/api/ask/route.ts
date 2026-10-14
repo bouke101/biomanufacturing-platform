@@ -2,6 +2,7 @@
 import { NextRequest, NextResponse } from "next/server"
 import Anthropic from "@anthropic-ai/sdk"
 import { createSupabaseAdminClient } from "@/lib/supabase/admin"
+import { createSupabaseServerClient } from "@/lib/supabase/server"
 import { expandTerms } from "@/lib/synonyms"
 import { fetchAllNews } from "@/lib/news"
 import type { NewsItem } from "@/lib/news"
@@ -52,6 +53,12 @@ export async function POST(req: NextRequest) {
       { error: "Query must be 1–500 characters." },
       { status: 400 }
     )
+  }
+
+  const serverSupabase = createSupabaseServerClient()
+  const { data: { user } } = await serverSupabase.auth.getUser()
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized." }, { status: 401 })
   }
 
   const terms = expandTerms(query)
