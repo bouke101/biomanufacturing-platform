@@ -628,11 +628,15 @@
     "scale": [
       "Pilot"
     ],
-    "capacity": "Riboflavin: ~3,000–5,000 MT/yr (one of world's top 2 producers)",
+    "capacity": "Riboflavin: ~3,000–5,000 MT/yr (world top-2; reduced share due to Chinese competition)\nNatuphos® E phytase: hundreds of MT/yr (world's first commercial phytase, launched 1991)\nBeta-carotene: ~500–1,000 MT/yr (natural-grade)\nLycopene: ~200–500 MT/yr\nAstaxanthin: ~50–150 MT/yr",
     "clients": [],
     "products": [
-      "Vitamin B2 (riboflavin, Ashbya gossypii fermentation)",
-      "Specialty biotech enzymes and biotransformation products"
+      "Vitamin B2 (riboflavin) — Ashbya gossypii submerged fermentation",
+      "Natuphos® E phytase (Aspergillus niger fermentation, market-leading feed phytase)",
+      "Beta-carotene (Lucaropen®, natural — Blakeslea trispora fermentation)",
+      "Lycopene (LycoVit®, natural — Blakeslea trispora fermentation)",
+      "Astaxanthin (AstaSana® — Haematococcus pluvialis microalgae)",
+      "Specialty biotransformation and bioconversion products"
     ],
     "legacy": "",
     "certifications": [],
@@ -17855,6 +17859,251 @@
     "website": "https://www.calysta.com",
     "imageUrl": "",
     "notes": "Calysseo's commercial FeedKind® single-cell protein plant in Nanjing, Jiangsu Province, China. A 50/50 joint venture between Calysta Inc. and Adisseo. Produces FeedKind® protein ingredient by methanotrophic fermentation (methane → biomass). Operational October 2022; 20,000 t/yr. Houses the world's largest gas fermenters (2 × 10,000-tonne units). Replaces fishmeal in aquaculture and animal feed.",
+    "visible": true,
+    "source": "manual",
+    "pilots4uPage": ""
+  },
+  {
+    "id": "basf-ludwigshafen-verbund-vitamin-e-a-production",
+    "name": "BASF – Ludwigshafen Verbund (Vitamin E & A Production)",
+    "owner": "BASF – Ludwigshafen Verbund (Vitamin E & A Production)",
+    "location": {
+      "city": "Ludwigshafen am Rhein",
+      "country": "Germany",
+      "lat": 49.4813,
+      "lng": 8.4406,
+      "region": "Europe"
+    },
+    "facilityType": "Captive",
+    "modalities": [
+      "Downstream processing",
+      "Fermentation (industrial)"
+    ],
+    "scale": [
+      "Commercial"
+    ],
+    "capacity": "Vitamin E: ~50,000 MT/yr (world's largest Vitamin E producer)\nVitamin A: ~8,000–12,000 MT/yr",
+    "clients": [],
+    "products": [
+      "Vitamin E (all-rac-α-tocopheryl acetate, Lutavit® E brand)",
+      "Vitamin A (retinyl acetate, retinyl palmitate)",
+      "Vitamin E oil solutions and emulsions",
+      "Vitamin A oil solutions and beadlets",
+      "Vitamin E / A premix preparations"
+    ],
+    "legacy": "World's largest single Vitamin E producer (~50,000 MT/yr). Vitamins sold under Lutavit® (feed) and Basovit® (human nutrition) brands. Integral part of BASF Nutrition & Health segment (~€2.6B revenue). Co-located with ID 20 (riboflavin) and 8002 (ecoflex) at Ludwigshafen.",
+    "certifications": [
+      "ISO 9001",
+      "ISO 14001",
+      "FSSC 22000",
+      "FAMI-QS",
+      "GMP (pharma grades)"
+    ],
+    "website": "https://www.basf.com/nutrition",
+    "imageUrl": "",
+    "notes": "BASF's large-scale Vitamin E and Vitamin A chemical synthesis plant at the Ludwigshafen Verbund site, one of the world's largest integrated chemical production complexes (10 km², 220 production units). BASF is the world's largest producer of synthetic Vitamin E (all-rac-α-tocopheryl acetate) from petrochemical isophytol and trimethylhydroquinone, with estimated capacity of ~50,000 MT/yr. Vitamin A (retinyl acetate/palmitate) is also synthesised here from petrochemical building blocks. Both vitamins are supplied as feed-grade, food-grade and pharmaceutical-grade ingredients globally under the Lutavit® and Basovit® brand portfolio.",
+    "visible": true,
+    "source": "manual",
+    "pilots4uPage": ""
+  },
+  {
+    "id": "basf-ludwigshafen-biopolymers-ecoflex-ecovio",
+    "name": "BASF – Ludwigshafen Biopolymers (ecoflex® / ecovio®)",
+    "owner": "BASF – Ludwigshafen Biopolymers (ecoflex® / ecovio®)",
+    "location": {
+      "city": "Ludwigshafen am Rhein",
+      "country": "Germany",
+      "lat": 49.4813,
+      "lng": 8.4406,
+      "region": "Europe"
+    },
+    "facilityType": "Captive",
+    "modalities": [
+      "Downstream processing",
+      "Fermentation (industrial)"
+    ],
+    "scale": [
+      "Commercial"
+    ],
+    "capacity": "ecoflex® PBAT: ~74,000 MT/yr (world's largest PBAT plant, expanded 2024)\necovio® compounds: several thousand MT/yr",
+    "clients": [],
+    "products": [
+      "ecoflex® PBAT (biodegradable polybutylene adipate-co-terephthalate)",
+      "ecovio® biopolymer compound (ecoflex® + Ingeo™ PLA blend)",
+      "Compostable film, bag and coating resin grades"
+    ],
+    "legacy": "World's largest PBAT plant (74,000 MT/yr ecoflex®). ecovio® compounds ecoflex® with NatureWorks Ingeo PLA. Both certified fully compostable (EN 13432, OK Compost HOME). Key material for single-use plastics directive compliance in Europe.",
+    "certifications": [
+      "ISO 9001",
+      "ISO 14001",
+      "EN 13432",
+      "OK Compost HOME",
+      "DIN CERTCO"
+    ],
+    "website": "https://www.basf.com/biopolymers",
+    "imageUrl": "",
+    "notes": "BASF's ecoflex® and ecovio® biopolymer production plant at Ludwigshafen, Germany. ecoflex® is a certified compostable, biodegradable polyester (polybutylene adipate-co-terephthalate, PBAT) used in agricultural mulch film, compostable bags, food packaging and coating applications. BASF expanded ecoflex® capacity to ~74,000 MT/yr in 2024, making it the world's largest PBAT plant. ecovio® is a compounded product combining ecoflex® with Ingeo™ PLA (from NatureWorks) for rigid compostable packaging and foam. Both products carry EN 13432 and OK Compost HOME certification.",
+    "visible": true,
+    "source": "manual",
+    "pilots4uPage": ""
+  },
+  {
+    "id": "basf-sandefjord-omega-3-concentrate-plant-pronova",
+    "name": "BASF – Sandefjord Omega-3 Concentrate Plant (Pronova)",
+    "owner": "BASF – Sandefjord Omega-3 Concentrate Plant (Pronova)",
+    "location": {
+      "city": "Sandefjord",
+      "country": "Norway",
+      "lat": 59.1331,
+      "lng": 10.2167,
+      "region": "Europe"
+    },
+    "facilityType": "Captive",
+    "modalities": [
+      "Downstream processing",
+      "Fermentation (industrial)"
+    ],
+    "scale": [
+      "Commercial"
+    ],
+    "capacity": "Omega-3 pharmaceutical concentrate: ~10,000–15,000 MT/yr\nTotal omega-3 concentrates (all grades): ~20,000–25,000 MT/yr",
+    "clients": [],
+    "products": [
+      "OMACOR® omega-3 ethyl esters (pharmaceutical grade, EPA + DHA ~90%)",
+      "Supplement-grade omega-3 concentrate (EPA + DHA ~65–85%)",
+      "Food-grade omega-3 oil (EPA + DHA ~30–50%)",
+      "Omega-3 triglyceride re-esterified (rTG) concentrate"
+    ],
+    "legacy": "Acquired from Pronova Biopharma 2013 (~NOK 5.1B). OMACOR® is the world's leading pharmaceutical omega-3 product (EPA:DHA concentrate). Also serves supplement and food markets. Pronova heritage dates to 1838 whaling in Sandefjord. Also operates Ålesund crude fish oil refinery as upstream feedstock site.",
+    "certifications": [
+      "ISO 9001",
+      "ISO 22000",
+      "GMP (EU and FDA)",
+      "FDA-inspected",
+      "Kosher",
+      "Halal"
+    ],
+    "website": "https://www.basf.com/omega3",
+    "imageUrl": "",
+    "notes": "BASF's pharmaceutical and nutritional omega-3 fatty acid concentrate production plant in Sandefjord, Norway, formerly Pronova Biopharma (acquired by BASF in 2013 for ~NOK 5.1 billion). The world's leading manufacturer of pharmaceutical-grade omega-3 ethyl esters (EPA + DHA) under the OMACOR® brand, which is the only omega-3 drug approved for severe hypertriglyceridemia in both Europe and the US (sold as Lovaza® and Epanova® in North America). Also produces food- and supplement-grade omega-3 concentrates. Raw fish oil (anchovy, sardine, mackerel) is refined, concentrated and esterified to produce EPA:DHA concentrate. Pharmaceutical-grade product is GMP-certified and FDA-inspected.",
+    "visible": true,
+    "source": "manual",
+    "pilots4uPage": ""
+  },
+  {
+    "id": "basf-lesund-omega-3-refinery-pronova",
+    "name": "BASF – Ålesund Omega-3 Refinery (Pronova)",
+    "owner": "BASF – Ålesund Omega-3 Refinery (Pronova)",
+    "location": {
+      "city": "Ålesund",
+      "country": "Norway",
+      "lat": 62.4722,
+      "lng": 6.1495,
+      "region": "Europe"
+    },
+    "facilityType": "Captive",
+    "modalities": [
+      "Downstream processing"
+    ],
+    "scale": [
+      "Commercial"
+    ],
+    "capacity": "Crude fish oil input: ~50,000–80,000 MT/yr\nRefined fish oil output: ~30,000–50,000 MT/yr",
+    "clients": [],
+    "products": [
+      "Refined fish oil (EPA + DHA ~30%)",
+      "Winterised and fractionated fish oil fractions",
+      "Crude fish oil processing intermediates for omega-3 concentration"
+    ],
+    "legacy": "Pronova heritage (acquired 2013). Upstream refinery supplying Sandefjord plant (ID 8003). Ålesund is Norway's largest fish-landing port. IFOS 5-star certified crude fish oil processing.",
+    "certifications": [
+      "ISO 9001",
+      "ISO 22000",
+      "MSC Chain of Custody",
+      "IFOS 5-star"
+    ],
+    "website": "https://www.basf.com/omega3",
+    "imageUrl": "",
+    "notes": "BASF's crude fish oil receiving, degumming, deacidification and refining facility in Ålesund (Ellingsøy), Norway, part of the Pronova supply chain (acquired 2013). Ålesund is one of Europe's largest fish-landing ports. The site processes raw pelagic fish oil (anchovy, mackerel, herring) into refined fish oil that is then shipped to the Sandefjord concentrate plant for further EPA/DHA enrichment. Handles ~50,000–80,000 MT/yr of crude fish oil input.",
+    "visible": true,
+    "source": "manual",
+    "pilots4uPage": ""
+  },
+  {
+    "id": "basf-minden-choline-chloride-plant",
+    "name": "BASF – Minden Choline Chloride Plant",
+    "owner": "BASF – Minden Choline Chloride Plant",
+    "location": {
+      "city": "Minden",
+      "country": "Germany",
+      "lat": 52.2889,
+      "lng": 8.9167,
+      "region": "Europe"
+    },
+    "facilityType": "Captive",
+    "modalities": [
+      "Downstream processing",
+      "Fermentation (industrial)"
+    ],
+    "scale": [
+      "Commercial"
+    ],
+    "capacity": "Choline chloride: ~30,000–50,000 MT/yr (all grades combined)",
+    "clients": [],
+    "products": [
+      "Choline chloride 75% aqueous solution (feed grade)",
+      "Choline chloride 60% dry (on corn-cob carrier)",
+      "Pharmaceutical-grade choline chloride"
+    ],
+    "legacy": "Lutavit® Choline brand. Feed additive essential for poultry, swine and aquaculture. 50% and 75% liquid solutions plus 60% dry-on-carrier. One of BASF's key specialty animal nutrition ingredient sites in Europe.",
+    "certifications": [
+      "ISO 9001",
+      "ISO 22000",
+      "FAMI-QS"
+    ],
+    "website": "https://www.basf.com/nutrition",
+    "imageUrl": "",
+    "notes": "BASF's choline chloride production plant in Minden, North Rhine-Westphalia, Germany. Choline chloride (Vitamin B4) is an essential feed additive for poultry and swine, preventing fatty liver syndrome and supporting methionine metabolism. BASF is one of the world's major choline chloride producers, supplying feed-grade (50% and 75% solutions, 60% dry) and pharmaceutical-grade products globally under the Lutavit® Choline brand.",
+    "visible": true,
+    "source": "manual",
+    "pilots4uPage": ""
+  },
+  {
+    "id": "basf-geismar-butanediol-complex-bdo-thf-gbl",
+    "name": "BASF – Geismar Butanediol Complex (BDO/THF/GBL)",
+    "owner": "BASF – Geismar Butanediol Complex (BDO/THF/GBL)",
+    "location": {
+      "city": "Geismar",
+      "country": "United States",
+      "lat": 30.2182,
+      "lng": -91.0115,
+      "region": "North America"
+    },
+    "facilityType": "Captive",
+    "modalities": [
+      "Downstream processing",
+      "Fermentation (industrial)"
+    ],
+    "scale": [
+      "Commercial"
+    ],
+    "capacity": "BDO: ~250,000–300,000 MT/yr\nTHF: ~100,000–150,000 MT/yr\nPolyTHF/PTMEG: ~50,000–80,000 MT/yr",
+    "clients": [],
+    "products": [
+      "1,4-Butanediol (BDO) — monomer for biodegradable PBAT and PBT plastics",
+      "Tetrahydrofuran (THF) — solvent and PTMEG monomer",
+      "Gamma-butyrolactone (GBL) — solvent and NMP alternative",
+      "PolyTHF / PTMEG — monomer for spandex and polyurethanes"
+    ],
+    "legacy": "One of world's largest BDO/THF complexes. BDO is feedstock for ecoflex® PBAT (biopolymers), PBT engineering plastics and spandex (PTMEG). Bio-based BDO transition pathway under evaluation (Genomatica process). Geismar is BASF's largest US site.",
+    "certifications": [
+      "ISO 9001",
+      "ISO 14001",
+      "REACH"
+    ],
+    "website": "https://www.basf.com/bdo",
+    "imageUrl": "",
+    "notes": "BASF's Geismar, Louisiana production complex for 1,4-butanediol (BDO) and downstream derivatives: tetrahydrofuran (THF), gamma-butyrolactone (GBL) and polytetrahydrofuran (polyTHF / PTMEG). BDO is the key monomer for biodegradable PBAT (ecoflex®) and PBT engineering plastics. The Geismar site is one of the world's largest BDO complexes, producing from petrochemical feedstocks. Bio-based BDO (from fermentation) is under evaluation as a future feedstock transition aligned with Mater-Biotech's Genomatica-technology bio-BDO (see ID 7060). Geismar is a major component of BASF's global biopolymer supply chain.",
     "visible": true,
     "source": "manual",
     "pilots4uPage": ""

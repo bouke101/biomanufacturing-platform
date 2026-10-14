@@ -357,6 +357,12 @@ GEO: dict[tuple, tuple] = {
     ("morro agudo", "brazil"): (-20.7333, -48.0569),
     # Batch 2 — Netherlands extra
     ("gorinchem", "netherlands"): (51.8333, 4.9667),
+    # BASF facilities
+    ("ludwigshafen am rhein", "germany"): (49.4813, 8.4406),
+    ("sandefjord", "norway"): (59.1331, 10.2167),
+    ("ålesund", "norway"): (62.4722, 6.1495),
+    ("minden", "germany"): (52.2889, 8.9167),
+    ("geismar", "united states"): (30.2182, -91.0115),
 }
 
 # Facility name → (lat, lng) overrides for ambiguous cases
