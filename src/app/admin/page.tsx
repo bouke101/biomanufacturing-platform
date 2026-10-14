@@ -5,6 +5,7 @@ import { redirect } from 'next/navigation'
 import Header from '@/components/Header'
 import AdminClient from './AdminClient'
 import { fetchColumnVisibility, fetchColumnFilters, fetchFacilities } from '@/lib/facilities'
+import { fetchAllNews } from '@/lib/news'
 
 export default async function AdminPage() {
   const supabase = createSupabaseServerClient()
@@ -19,11 +20,12 @@ export default async function AdminPage() {
   if (profile?.role !== 'admin') redirect('/')
 
   const admin = createSupabaseAdminClient()
-  const [{ data: users }, columnVisibility, columnFilters, facilities] = await Promise.all([
+  const [{ data: users }, columnVisibility, columnFilters, facilities, initialNews] = await Promise.all([
     admin.from('profiles').select('id, email, role, blocked, created_at').order('created_at', { ascending: false }),
     fetchColumnVisibility(admin),
     fetchColumnFilters(admin),
     fetchFacilities(admin),
+    fetchAllNews(admin),
   ])
 
   const allFilterValues = {
@@ -58,6 +60,7 @@ export default async function AdminPage() {
           valueCounts={valueCounts}
           totalFacilities={facilities.length}
           facilities={facilities}
+          initialNews={initialNews}
         />
       </main>
     </div>

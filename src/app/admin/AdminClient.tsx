@@ -4,10 +4,12 @@ import { useState } from 'react'
 import UsersTab from '@/components/admin/UsersTab'
 import ColumnVisibilityTab from '@/components/admin/ColumnVisibilityTab'
 import FacilitiesTab from '@/components/admin/FacilitiesTab'
+import NewsTab from '@/components/admin/NewsTab'
 import type { AllFilterValues } from '@/components/admin/ContentFiltersTab'
 import type { ColumnFilters } from '@/lib/facilities'
+import type { NewsItem } from '@/lib/news'
 
-type Tab = 'users' | 'columns' | 'facilities'
+type Tab = 'users' | 'columns' | 'facilities' | 'news'
 
 interface Profile {
   id: string
@@ -25,6 +27,7 @@ interface AdminClientProps {
   valueCounts: Record<string, Record<string, number>>
   totalFacilities: number
   facilities: import('@/types/facility').Facility[]
+  initialNews: NewsItem[]
 }
 
 export default function AdminClient({
@@ -35,6 +38,7 @@ export default function AdminClient({
   valueCounts,
   totalFacilities,
   facilities,
+  initialNews,
 }: AdminClientProps) {
   const [activeTab, setActiveTab] = useState<Tab>('users')
 
@@ -57,6 +61,9 @@ export default function AdminClient({
         <button className={tabClass('facilities')} onClick={() => setActiveTab('facilities')}>
           Facilities
         </button>
+        <button className={tabClass('news')} onClick={() => setActiveTab('news')}>
+          News
+        </button>
       </div>
 
       {activeTab === 'users' && <UsersTab users={users} />}
@@ -70,6 +77,7 @@ export default function AdminClient({
         />
       )}
       {activeTab === 'facilities' && <FacilitiesTab facilities={facilities} />}
+      {activeTab === 'news' && <NewsTab initialNews={initialNews} />}
     </div>
   )
 }
